@@ -40,6 +40,7 @@
 ** Отправить уведомление о себе всем преподавателям и кафедре
 
 *** Адреса
+
 Скопировать всю строку и вставить в адрес получателя.
 
 zaochnikleti@mail.ru,
@@ -115,9 +116,6 @@ CLOSED: [2016-09-25 Sun 11:42] DEADLINE: <2016-09-25 Sun>
 *** TODO 2016-10-31 | История | [[https://yadi.sk/i/b8SWi1EkvVygd][Список вопросов по истории IX-XIX вв.]]
 DEADLINE: <2016-10-31 Mon>
 
-*** TODO 2016-10-05 | История | [[https://yadi.sk/i/b8SWi1EkvVygd][Список вопросов по истории IX-XIX вв.]]
-DEADLINE: <2016-10-05 Wed>
-
 Сдать 2 варианта.
 
 Вариант выбирать в зависимости от четности последней цифры студенческого билета:
@@ -128,9 +126,15 @@ DEADLINE: <2016-10-05 Wed>
 - 1 из Киевской руси;
 - 1 из Московской руси;
 - 1 из императорской России.
+  
 То есть *не нужно делать 12 вопросов*.
 
 [[https://yadi.sk/i/8FF1acSAvWKf7][Правила ответов на вопросы]]
+
+Основные выписки из правил ответов на вопросы:
+- Допускается совпадение около половины [[https://www.antiplagiat.ru/][Антиплагиат.ру]]
+- 10000-20000 знаков (10 листов) в общем на 3 вопроса.
+- 14 размер TimesNewRoman
 
 *** TODO 2016-10-31 | Инженерная и компьютерная графика | [[http://www.eltech.ru/ru/fakultety/fakultet-informacionno-izmeritelnyh-i-biotehnicheskih-sistem/sostav-fakulteta/kafedra-prikladnoy-mehaniki-i-inzhenernoy-grafiki/chitaemye-discipliny/inzhenernaya-grafika][Варианты с вопросами]]
 DEADLINE: <2016-10-31 Mon>
