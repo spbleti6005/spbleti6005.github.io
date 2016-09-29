@@ -160,22 +160,22 @@ DEADLINE: <2016-10-31 Mon>
 
 ** Официальные сайты ВУЗА
 
-- [[http://www.eltech.ru/][Главный сайт]]
-- [[http://eplace.eltech.ru/][Портал совместного обучения]]
-- [[http://library.eltech.ru/][Электронная библиотека]]
-- http://zao.vm-2.spb.ru/home/informatika-i-vycislitelnaa-tehnika
+*** [[http://www.eltech.ru/][Главный сайт]]
+*** [[http://eplace.eltech.ru/][Портал совместного обучения]]
+*** [[http://library.eltech.ru/][Электронная библиотека]]
+*** http://zao.vm-2.spb.ru/home/informatika-i-vycislitelnaa-tehnika
 
 ** Помощники
 
 *** Общие
 
-- [[http://interneturok.ru/][interneturok.ru | Видеоуроки по школьной программе]]
+**** [[http://interneturok.ru/][interneturok.ru | Видеоуроки по школьной программе]]
 
 *** Математика
 
 **** Калькуляторы
 
-- [[https://calc.loviotvet.ru/][calc.loviotvet.ru | Онлайн программа для решения примеров и уравнений ЛовиОтвет]]
+***** [[https://calc.loviotvet.ru/][calc.loviotvet.ru | Онлайн программа для решения примеров и уравнений ЛовиОтвет]]
 
 **** Уроки
 
@@ -185,25 +185,25 @@ DEADLINE: <2016-10-31 Mon>
 
 ****** Главные страницы
 
-- [[http://mathprofi.ru/index.html][mathprofi.ru | Высшая математика – просто и доступно]]
-- [[http://mathprofi.net/][mathprofi.net | Высшая математика – просто и доступно | 2 зеркало]]
-- [[http://www.webmath.ru/poleznoe.php][www.webmath.ru | Портал по высшей математике]]
+******* [[http://mathprofi.ru/index.html][mathprofi.ru | Высшая математика – просто и доступно]]
+******* [[http://mathprofi.net/][mathprofi.net | Высшая математика – просто и доступно | 2 зеркало]]
+******* [[http://www.webmath.ru/poleznoe.php][www.webmath.ru | Портал по высшей математике]]
 
 ****** Комплексные числа
 
-- [[http://www.mathprofi.ru/kompleksnye_chisla_dlya_chainikov.html][www.mathprofi.ru | Комплексные числа для чайников]]
+******* [[http://www.mathprofi.ru/kompleksnye_chisla_dlya_chainikov.html][www.mathprofi.ru | Комплексные числа для чайников]]
 
 *** История
 
 **** Антиплагиаты
 
-- https://text.ru/antiplagiat
-- https://www.antiplagiat.ru
+***** https://text.ru/antiplagiat
+***** https://www.antiplagiat.ru
 
 *** Иностранный язык
 
-- [[http://www.gingersoftware.com/grammarcheck][www.gingersoftware.com | grammarcheck]]
-- [[http://www.gingersoftware.com/products/sentence-rephraser][www.gingersoftware.com | sentence-rephraser]]
+**** [[http://www.gingersoftware.com/grammarcheck][www.gingersoftware.com | grammarcheck]]
+**** [[http://www.gingersoftware.com/products/sentence-rephraser][www.gingersoftware.com | sentence-rephraser]]
 
 * [[https://yadi.sk/d/QJoB79mivT4Ne][Документы, справки]]
 
