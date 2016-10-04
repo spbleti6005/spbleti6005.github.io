@@ -1,4 +1,5 @@
 #+TITLE: СПбГЭТУ «ЛЭТИ» | 6005 | Вычислительная техника (ВТ)
+
 #+LANGUAGE: ru
 #+STARTUP: showeverything
 
