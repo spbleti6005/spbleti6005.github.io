@@ -177,6 +177,8 @@ DEADLINE: <2016-10-31 Mon>
 
 *** Общие
 
+**** [[https://whataweek.github.io/][Какая сейчас неделя? Четная или нечетная?]]
+
 **** [[http://interneturok.ru/][interneturok.ru | Видеоуроки по школьной программе]]
 
 *** Математика
