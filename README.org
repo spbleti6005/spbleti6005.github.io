@@ -117,13 +117,13 @@ alex@mail.ru
 
 ** Задания
 
-*** DONE 2016-09-25 | Иностранный язык | [[https://yadi.sk/i/zySQ_5l3vVxed][Intrance Test]]
+*** DONE 2016-09-25 | [[https://yadi.sk/d/lEmOIxyhvStZ7][Иностранный язык]] | [[https://yadi.sk/i/zySQ_5l3vVxed][Intrance Test]]
 CLOSED: [2016-09-25 Sun 11:42] DEADLINE: <2016-09-25 Sun>
 
 *** TODO 2016-10-14 | [[https://yadi.sk/d/-weSHexnvSta6][Математика]] | [[https://yadi.sk/i/2J-auRpnvckfv][Контрольная работа № 1]]
 DEADLINE: <2016-10-14 Fri>
 
-*** TODO 2016-10-28 | Инженерная и компьютерная графика | [[http://www.eltech.ru/ru/fakultety/fakultet-informacionno-izmeritelnyh-i-biotehnicheskih-sistem/sostav-fakulteta/kafedra-prikladnoy-mehaniki-i-inzhenernoy-grafiki/chitaemye-discipliny/inzhenernaya-grafika][Список вариантов]]
+*** TODO 2016-10-28 | [[https://yadi.sk/d/M1OTQwOGvSuLm][Инженерная и компьютерная графика]] | [[http://www.eltech.ru/ru/fakultety/fakultet-informacionno-izmeritelnyh-i-biotehnicheskih-sistem/sostav-fakulteta/kafedra-prikladnoy-mehaniki-i-inzhenernoy-grafiki/chitaemye-discipliny/inzhenernaya-grafika][Список вариантов]]
 DEADLINE: <2016-10-28 Fri>
 Вариант выбирать в зависимости от последних двух цифр студенческого билета.
 
