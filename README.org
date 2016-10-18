@@ -121,10 +121,11 @@ alex@mail.ru
 CLOSED: [2016-09-25 Sun 11:42] DEADLINE: <2016-09-25 Sun>
 
 *** TODO 2016-10-14 | [[https://yadi.sk/d/-weSHexnvSta6][Математика]] | [[https://yadi.sk/i/2J-auRpnvckfv][Контрольная работа № 1]]
-    DEADLINE: <2016-10-14 Fri>
+DEADLINE: <2016-10-14 Fri>
 
 *** TODO 2016-10-28 | Инженерная и компьютерная графика | [[http://www.eltech.ru/ru/fakultety/fakultet-informacionno-izmeritelnyh-i-biotehnicheskih-sistem/sostav-fakulteta/kafedra-prikladnoy-mehaniki-i-inzhenernoy-grafiki/chitaemye-discipliny/inzhenernaya-grafika][Список вариантов]]
-    DEADLINE: <2016-10-28 Fri>
+DEADLINE: <2016-10-28 Fri>
+Вариант выбирать в зависимости от последних двух цифр студенческого билета.
 
 *** TODO 2016-10-31 | [[https://yadi.sk/d/EVAqJiLnvStZo][История]] | [[https://yadi.sk/i/b8SWi1EkvVygd][Список вопросов по истории IX-XIX вв.]]
 DEADLINE: <2016-10-31 Mon>
