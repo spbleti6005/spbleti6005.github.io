@@ -1,0 +1,1073 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="ru" xml:lang="ru">
+<head>
+<title>СПбГЭТУ «ЛЭТИ» | 6005 | Вычислительная техника (ВТ)</title>
+<!-- 2016-10-23 Sun 09:43 -->
+<meta  http-equiv="Content-Type" content="text/html;charset=utf-8" />
+<meta  name="generator" content="Org-mode" />
+<style type="text/css">
+ <!--/*--><![CDATA[/*><!--*/
+  .title  { text-align: center; }
+  .todo   { font-family: monospace; color: red; }
+  .done   { color: green; }
+  .tag    { background-color: #eee; font-family: monospace;
+            padding: 2px; font-size: 80%; font-weight: normal; }
+  .timestamp { color: #bebebe; }
+  .timestamp-kwd { color: #5f9ea0; }
+  .right  { margin-left: auto; margin-right: 0px;  text-align: right; }
+  .left   { margin-left: 0px;  margin-right: auto; text-align: left; }
+  .center { margin-left: auto; margin-right: auto; text-align: center; }
+  .underline { text-decoration: underline; }
+  #postamble p, #preamble p { font-size: 90%; margin: .2em; }
+  p.verse { margin-left: 3%; }
+  pre {
+    border: 1px solid #ccc;
+    box-shadow: 3px 3px 3px #eee;
+    padding: 8pt;
+    font-family: monospace;
+    overflow: auto;
+    margin: 1.2em;
+  }
+  pre.src {
+    position: relative;
+    overflow: visible;
+    padding-top: 1.2em;
+  }
+  pre.src:before {
+    display: none;
+    position: absolute;
+    background-color: white;
+    top: -10px;
+    right: 10px;
+    padding: 3px;
+    border: 1px solid black;
+  }
+  pre.src:hover:before { display: inline;}
+  pre.src-sh:before    { content: 'sh'; }
+  pre.src-bash:before  { content: 'sh'; }
+  pre.src-emacs-lisp:before { content: 'Emacs Lisp'; }
+  pre.src-R:before     { content: 'R'; }
+  pre.src-perl:before  { content: 'Perl'; }
+  pre.src-java:before  { content: 'Java'; }
+  pre.src-sql:before   { content: 'SQL'; }
+
+  table { border-collapse:collapse; }
+  caption.t-above { caption-side: top; }
+  caption.t-bottom { caption-side: bottom; }
+  td, th { vertical-align:top;  }
+  th.right  { text-align: center;  }
+  th.left   { text-align: center;   }
+  th.center { text-align: center; }
+  td.right  { text-align: right;  }
+  td.left   { text-align: left;   }
+  td.center { text-align: center; }
+  dt { font-weight: bold; }
+  .footpara:nth-child(2) { display: inline; }
+  .footpara { display: block; }
+  .footdef  { margin-bottom: 1em; }
+  .figure { padding: 1em; }
+  .figure p { text-align: center; }
+  .inlinetask {
+    padding: 10px;
+    border: 2px solid gray;
+    margin: 10px;
+    background: #ffffcc;
+  }
+  #org-div-home-and-up
+   { text-align: right; font-size: 70%; white-space: nowrap; }
+  textarea { overflow-x: auto; }
+  .linenr { font-size: smaller }
+  .code-highlighted { background-color: #ffff00; }
+  .org-info-js_info-navigation { border-style: none; }
+  #org-info-js_console-label
+    { font-size: 10px; font-weight: bold; white-space: nowrap; }
+  .org-info-js_search-highlight
+    { background-color: #ffff00; color: #000000; font-weight: bold; }
+  /*]]>*/-->
+</style>
+<link rel="stylesheet" type="text/css" href="http://www.pirilampo.org/styles/bigblow/css/htmlize.css"/>
+<link rel="stylesheet" type="text/css" href="http://www.pirilampo.org/styles/bigblow/css/bigblow.css"/>
+<link rel="stylesheet" type="text/css" href="http://www.pirilampo.org/styles/bigblow/css/hideshow.css"/>
+<script type="text/javascript" src="http://www.pirilampo.org/styles/bigblow/js/jquery-1.11.0.min.js"></script>
+<script type="text/javascript" src="http://www.pirilampo.org/styles/bigblow/js/jquery-ui-1.10.2.min.js"></script>
+<script type="text/javascript" src="http://www.pirilampo.org/styles/bigblow/js/jquery.localscroll-min.js"></script>
+<script type="text/javascript" src="http://www.pirilampo.org/styles/bigblow/js/jquery.scrollTo-1.4.3.1-min.js"></script>
+<script type="text/javascript" src="http://www.pirilampo.org/styles/bigblow/js/jquery.zclip.min.js"></script>
+<script type="text/javascript" src="http://www.pirilampo.org/styles/bigblow/js/bigblow.js"></script>
+<script type="text/javascript" src="http://www.pirilampo.org/styles/bigblow/js/hideshow.js"></script>
+<script type="text/javascript" src="http://www.pirilampo.org/styles/lib/js/jquery.stickytableheaders.min.js"></script>
+<script type="text/javascript">
+/*
+@licstart  The following is the entire license notice for the
+JavaScript code in this tag.
+
+Copyright (C) 2012-2013 Free Software Foundation, Inc.
+
+The JavaScript code in this tag is free software: you can
+redistribute it and/or modify it under the terms of the GNU
+General Public License (GNU GPL) as published by the Free Software
+Foundation, either version 3 of the License, or (at your option)
+any later version.  The code is distributed WITHOUT ANY WARRANTY;
+without even the implied warranty of MERCHANTABILITY or FITNESS
+FOR A PARTICULAR PURPOSE.  See the GNU GPL for more details.
+
+As additional permission under GNU GPL version 3 section 7, you
+may distribute non-source (e.g., minimized or compacted) forms of
+that code without the copy of the GNU GPL normally required by
+section 4, provided you include this license notice and a URL
+through which recipients can access the Corresponding Source.
+
+
+@licend  The above is the entire license notice
+for the JavaScript code in this tag.
+*/
+<!--/*--><![CDATA[/*><!--*/
+ function CodeHighlightOn(elem, id)
+ {
+   var target = document.getElementById(id);
+   if(null != target) {
+     elem.cacheClassElem = elem.className;
+     elem.cacheClassTarget = target.className;
+     target.className = "code-highlighted";
+     elem.className   = "code-highlighted";
+   }
+ }
+ function CodeHighlightOff(elem, id)
+ {
+   var target = document.getElementById(id);
+   if(elem.cacheClassElem)
+     elem.className = elem.cacheClassElem;
+   if(elem.cacheClassTarget)
+     target.className = elem.cacheClassTarget;
+ }
+/*]]>*///-->
+</script>
+</head>
+<body>
+<div id="content">
+<h1 class="title">СПбГЭТУ «ЛЭТИ» | 6005 | Вычислительная техника (ВТ)</h1>
+<div id="table-of-contents">
+<h2>&#1057;&#1086;&#1076;&#1077;&#1088;&#1078;&#1072;&#1085;&#1080;&#1077;</h2>
+<div id="text-table-of-contents">
+<ul>
+<li><a href="#sec-1">1. Главная</a>
+<ul>
+<li><a href="#sec-1-1">1.1. Отправить письмо уведомление о себе всем преподавателям и кафедре</a>
+<ul>
+<li><a href="#sec-1-1-1">1.1.1. Адреса</a></li>
+<li><a href="#sec-1-1-2">1.1.2. Тема</a></li>
+<li><a href="#sec-1-1-3">1.1.3. Содержание</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><a href="#sec-2">2. Сообщество</a>
+<ul>
+<li><a href="#sec-2-1">2.1. Общение</a>
+<ul>
+<li><a href="#sec-2-1-1">2.1.1. Группа ВК</a></li>
+<li><a href="#sec-2-1-2">2.1.2. Чат</a></li>
+</ul>
+</li>
+<li><a href="#sec-2-2">2.2. Почта</a></li>
+<li><a href="#sec-2-3">2.3. Встречи</a>
+<ul>
+<li><a href="#sec-2-3-1">2.3.1. 2016-09-14 | Первая заочная встреча</a></li>
+<li><a href="#sec-2-3-2">2.3.2. 2017-01-01 | Встреча в январе</a></li>
+</ul>
+</li>
+<li><a href="#sec-2-4">2.4. Вечерняя группа</a></li>
+</ul>
+</li>
+<li><a href="#sec-3">3. Сессия</a>
+<ul>
+<li><a href="#sec-3-1">3.1. Начало</a></li>
+<li><a href="#sec-3-2">3.2. Задания</a>
+<ul>
+<li><a href="#sec-3-2-1">3.2.1. <span class="done DONE">DONE</span> 2016-09-25 | Иностранный язык | Intrance Test</a></li>
+<li><a href="#sec-3-2-2">3.2.2. <span class="done DONE">DONE</span> 2016-10-14 | Математика | Контрольная работа № 1</a></li>
+<li><a href="#sec-3-2-3">3.2.3. <span class="todo TODO">TODO</span> 2016-10-28 | Инженерная и компьютерная графика | Список вариантов</a></li>
+<li><a href="#sec-3-2-4">3.2.4. <span class="todo TODO">TODO</span> 2016-10-31 | История | Список вопросов по истории IX-XIX вв.</a></li>
+</ul>
+</li>
+<li><a href="#sec-3-3">3.3. Материалы</a></li>
+<li><a href="#sec-3-4">3.4. Список предметов</a>
+<ul>
+<li><a href="#sec-3-4-1">3.4.1. 6002 Кафедра электронного приборостроения (ЭП)</a></li>
+<li><a href="#sec-3-4-2">3.4.2. 6005, 6006 Вычислительная техника (ВТ)</a></li>
+<li><a href="#sec-3-4-3">3.4.3. 6081 Кафедра биотехнических систем (БТС)</a></li>
+<li><a href="#sec-3-4-4">3.4.4. 6091 Кафедра автоматики и процессов управления (АПУ)</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><a href="#sec-4">4. Помощники</a>
+<ul>
+<li><a href="#sec-4-1">4.1. Официальные сайты ВУЗА</a>
+<ul>
+<li><a href="#sec-4-1-1">4.1.1. Главный сайт</a></li>
+<li><a href="#sec-4-1-2">4.1.2. Портал совместного обучения</a></li>
+<li><a href="#sec-4-1-3">4.1.3. Электронная библиотека</a></li>
+<li><a href="#sec-4-1-4">4.1.4. </a></li>
+</ul>
+</li>
+<li><a href="#sec-4-2">4.2. Сайты</a>
+<ul>
+<li><a href="#sec-4-2-1">4.2.1. Общие</a></li>
+<li><a href="#sec-4-2-2">4.2.2. Математика</a></li>
+<li><a href="#sec-4-2-3">4.2.3. История</a></li>
+<li><a href="#sec-4-2-4">4.2.4. Иностранный язык</a></li>
+<li><a href="#sec-4-2-5">4.2.5. Инженерная и компьютерная графика</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><a href="#sec-5">5. Справки</a>
+<ul>
+<li><a href="#sec-5-1">5.1. Справка вызова</a></li>
+<li><a href="#sec-5-2">5.2. Общежитие</a></li>
+<li><a href="#sec-5-3">5.3. Студенческий билет</a></li>
+<li><a href="#sec-5-4">5.4. Зачетная книжка</a></li>
+</ul>
+</li>
+<li><a href="#sec-6">6. Контакты</a>
+<ul>
+<li><a href="#sec-6-1">6.1. Преподаватели</a></li>
+<li><a href="#sec-6-2">6.2. Деканат</a>
+<ul>
+<li><a href="#sec-6-2-1">6.2.1. Заместитель декана</a></li>
+<li><a href="#sec-6-2-2">6.2.2. Секретарь декана</a></li>
+</ul>
+</li>
+<li><a href="#sec-6-3">6.3. Библиотека</a></li>
+</ul>
+</li>
+</ul>
+</div>
+</div>
+<p>
+Факультет компьютерных технологий и информатики (ФКТИ).
+</p>
+
+<p>
+Привет. Если ты учишься в СПбГЭТУ «ЛЭТИ», вступай в наше сообщество.
+Здесь мы обмениваемся знаниями и общаемся.
+</p>
+
+<p>
+Заметил ошибку? Пожалуйста, сообщи на почту <a href="mailto:leti.6005@yandex.ru">leti.6005@yandex.ru</a>.
+</p>
+
+<div id="outline-container-sec-1" class="outline-2">
+<h2 id="sec-1"><span class="section-number-2">1</span> Главная</h2>
+<div class="outline-text-2" id="text-1">
+</div><div id="outline-container-sec-1-1" class="outline-3">
+<h3 id="sec-1-1"><span class="section-number-3">1.1</span> Отправить письмо уведомление о себе всем преподавателям и кафедре</h3>
+<div class="outline-text-3" id="text-1-1">
+</div><div id="outline-container-sec-1-1-1" class="outline-4">
+<h4 id="sec-1-1-1"><span class="section-number-4">1.1.1</span> Адреса</h4>
+<div class="outline-text-4" id="text-1-1-1">
+<p>
+Скопировать всю строку и вставить в адрес получателя.
+</p>
+
+<p>
+alexander.n.bugrov@gmail.com,
+bugrov.an@mail.ru,
+dekanatof@yandex.ru,
+elivbesedina@mail.ru,
+ikgp<sub>etu</sub>@mail.ru,
+ivmatveeva@etu.ru,
+matemleti@gmail.com,
+s<sub>v</sub><sub>vlasenko</sub>@mail.ru,
+vanisimov2005@mail.ru,
+vanisimov2015@mail.ru,
+vnveresov@etu.ru,
+zaochnikleti@mail.ru,
+</p>
+</div>
+</div>
+
+<div id="outline-container-sec-1-1-2" class="outline-4">
+<h4 id="sec-1-1-2"><span class="section-number-4">1.1.2</span> Тема</h4>
+<div class="outline-text-4" id="text-1-1-2">
+<p>
+Фамилия Имя Отчество 6005 контакты
+</p>
+</div>
+</div>
+
+<div id="outline-container-sec-1-1-3" class="outline-4">
+<h4 id="sec-1-1-3"><span class="section-number-4">1.1.3</span> Содержание</h4>
+<div class="outline-text-4" id="text-1-1-3">
+<p>
+Здравствуйте. Пожалуйста, сохраните мой email адрес для связи со мной.
+</p>
+
+<p>
+alex@mail.ru
+</p>
+
+<p>
+(По желанию номер телефона.)
+</p>
+
+<p>
+Фамилия Имя Отчество 6005
+</p>
+</div>
+</div>
+</div>
+</div>
+
+<div id="outline-container-sec-2" class="outline-2">
+<h2 id="sec-2"><span class="section-number-2">2</span> Сообщество</h2>
+<div class="outline-text-2" id="text-2">
+</div><div id="outline-container-sec-2-1" class="outline-3">
+<h3 id="sec-2-1"><span class="section-number-3">2.1</span> Общение</h3>
+<div class="outline-text-3" id="text-2-1">
+</div><div id="outline-container-sec-2-1-1" class="outline-4">
+<h4 id="sec-2-1-1"><span class="section-number-4">2.1.1</span> <a href="https://vk.com/club128816610">Группа ВК</a></h4>
+<div class="outline-text-4" id="text-2-1-1">
+<p>
+Вступайте независимо от группы или направления, вместе веселее!
+</p>
+</div>
+</div>
+
+<div id="outline-container-sec-2-1-2" class="outline-4">
+<h4 id="sec-2-1-2"><span class="section-number-4">2.1.2</span> Чат</h4>
+<div class="outline-text-4" id="text-2-1-2">
+<p>
+Киньте приглашение в друзья любому члену группы ВК, вас добавят в ЧАТ комнату.
+</p>
+</div>
+</div>
+</div>
+
+<div id="outline-container-sec-2-2" class="outline-3">
+<h3 id="sec-2-2"><span class="section-number-3">2.2</span> Почта</h3>
+<div class="outline-text-3" id="text-2-2">
+<p>
+На <a href="mailto:leti.6005@yandex.ru">leti.6005@yandex.ru</a> и <a href="mailto:leti.6006@yandex.ru">leti.6006@yandex.ru</a> преподаватели отправляют
+задания, и с нее же мы отправляем результаты.
+</p>
+</div>
+</div>
+
+<div id="outline-container-sec-2-3" class="outline-3">
+<h3 id="sec-2-3"><span class="section-number-3">2.3</span> Встречи</h3>
+<div class="outline-text-3" id="text-2-3">
+</div><div id="outline-container-sec-2-3-1" class="outline-4">
+<h4 id="sec-2-3-1"><span class="section-number-4">2.3.1</span> 2016-09-14 | Первая заочная встреча</h4>
+</div>
+
+<div id="outline-container-sec-2-3-2" class="outline-4">
+<h4 id="sec-2-3-2"><span class="section-number-4">2.3.2</span> 2017-01-01 | Встреча в январе</h4>
+</div>
+</div>
+
+<div id="outline-container-sec-2-4" class="outline-3">
+<h3 id="sec-2-4"><span class="section-number-3">2.4</span> Вечерняя группа</h3>
+<div class="outline-text-3" id="text-2-4">
+<p>
+Нам разрешили быть на лекциях вечерней группы.
+На лабах и контрольных нет.
+</p>
+
+<p>
+Расписание занятий заочно вечерней группы висит в ВУЗе на 2 этаже корпус 3.
+</p>
+</div>
+</div>
+</div>
+
+<div id="outline-container-sec-3" class="outline-2">
+<h2 id="sec-3"><span class="section-number-2">3</span> Сессия</h2>
+<div class="outline-text-2" id="text-3">
+</div><div id="outline-container-sec-3-1" class="outline-3">
+<h3 id="sec-3-1"><span class="section-number-3">3.1</span> Начало</h3>
+<div class="outline-text-3" id="text-3-1">
+<p>
+Начинается с <b>14 января</b> и длится по <b>2 февраля</b>.
+</p>
+</div>
+</div>
+
+<div id="outline-container-sec-3-2" class="outline-3">
+<h3 id="sec-3-2"><span class="section-number-3">3.2</span> Задания</h3>
+<div class="outline-text-3" id="text-3-2">
+</div><div id="outline-container-sec-3-2-1" class="outline-4">
+<h4 id="sec-3-2-1"><span class="section-number-4">3.2.1</span> <span class="done DONE">DONE</span> 2016-09-25 | <a href="https://yadi.sk/d/lEmOIxyhvStZ7">Иностранный язык</a> | <a href="https://yadi.sk/i/zySQ_5l3vVxed">Intrance Test</a></h4>
+<div class="outline-text-4" id="text-3-2-1">
+</div>
+</div>
+
+<div id="outline-container-sec-3-2-2" class="outline-4">
+<h4 id="sec-3-2-2"><span class="section-number-4">3.2.2</span> <span class="done DONE">DONE</span> 2016-10-14 | <a href="https://yadi.sk/d/-weSHexnvSta6">Математика</a> | <a href="https://yadi.sk/i/2J-auRpnvckfv">Контрольная работа № 1</a></h4>
+<div class="outline-text-4" id="text-3-2-2">
+</div>
+</div>
+
+<div id="outline-container-sec-3-2-3" class="outline-4">
+<h4 id="sec-3-2-3"><span class="section-number-4">3.2.3</span> <span class="todo TODO">TODO</span> 2016-10-28 | <a href="https://yadi.sk/d/M1OTQwOGvSuLm">Инженерная и компьютерная графика</a> | <a href="http://www.eltech.ru/ru/fakultety/fakultet-informacionno-izmeritelnyh-i-biotehnicheskih-sistem/sostav-fakulteta/kafedra-prikladnoy-mehaniki-i-inzhenernoy-grafiki/chitaemye-discipliny/inzhenernaya-grafika">Список вариантов</a></h4>
+<div class="outline-text-4" id="text-3-2-3">
+<p>
+Вариант выбирать в зависимости от последних двух цифр студенческого билета.
+</p>
+</div>
+</div>
+
+<div id="outline-container-sec-3-2-4" class="outline-4">
+<h4 id="sec-3-2-4"><span class="section-number-4">3.2.4</span> <span class="todo TODO">TODO</span> 2016-10-31 | <a href="https://yadi.sk/d/EVAqJiLnvStZo">История</a> | <a href="https://yadi.sk/i/b8SWi1EkvVygd">Список вопросов по истории IX-XIX вв.</a></h4>
+<div class="outline-text-4" id="text-3-2-4">
+</div>
+
+<ol class="org-ol"><li><a id="sec-3-2-4-1" name="sec-3-2-4-1"></a>Варианты<br  /><div class="outline-text-5" id="text-3-2-4-1">
+<p>
+Вариант выбирать в зависимости от четности последней цифры студенческого билета.
+</p>
+
+<p>
+Если последняя цифра номера зачетной книжки:
+</p>
+<ul class="org-ul">
+<li>нечетное число &#x2013; первый вариант;
+</li>
+<li>четное число ИЛИ «0» &#x2013; второй вариант.
+</li>
+</ul>
+
+<p>
+<b>Из одного варианта брать только 3 вопроса</b>:
+</p>
+<ul class="org-ul">
+<li>1 из Киевской руси;
+</li>
+<li>1 из Московской руси;
+</li>
+<li>1 из императорской России.
+</li>
+</ul>
+
+<p>
+То есть <b>не нужно делать 12 вопросов</b>.
+</p>
+</div>
+</li>
+
+<li><a id="sec-3-2-4-2" name="sec-3-2-4-2"></a><a href="https://yadi.sk/i/8FF1acSAvWKf7">Правила ответов на вопросы</a><br  /><div class="outline-text-5" id="text-3-2-4-2">
+<p>
+Основные выписки из правил ответов на вопросы:
+</p>
+<ul class="org-ul">
+<li>Допускается совпадение около половины <a href="https://www.antiplagiat.ru/">Антиплагиат.ру</a>
+</li>
+<li>10000-20000 знаков (10 листов) в общем на 3 вопроса.
+</li>
+<li>14 размер TimesNewRoman
+</li>
+</ul>
+</div>
+</li></ol>
+</div>
+</div>
+
+<div id="outline-container-sec-3-3" class="outline-3">
+<h3 id="sec-3-3"><span class="section-number-3">3.3</span> Материалы</h3>
+<div class="outline-text-3" id="text-3-3">
+<ul class="org-ul">
+<li><a href="https://yadi.sk/d/lEmOIxyhvStZ7">Иностранный язык</a>
+</li>
+<li><a href="https://yadi.sk/d/EVAqJiLnvStZo">История</a>
+</li>
+<li><a href="https://yadi.sk/d/x4RlLNnZvSuVG">Информатика и информационные технологии</a>
+</li>
+<li><a href="https://yadi.sk/d/-weSHexnvSta6">Алгебра</a>
+</li>
+<li><a href="https://yadi.sk/d/sVo7kxS3vSuR6">Химия</a>
+</li>
+<li><a href="https://yadi.sk/d/M1OTQwOGvSuLm">Инженерная и компьютерная графика</a>
+</li>
+<li><a href="https://yadi.sk/d/-W6IWdzEvStan">Практикум по программированию</a>
+</li>
+<li><a href="https://drive.google.com/drive/folders/0BwXp5Vsxw6GlaTh4WlBaUTNZVmc">drive.google.com | 4005</a>
+</li>
+</ul>
+</div>
+</div>
+<div id="outline-container-sec-3-4" class="outline-3">
+<h3 id="sec-3-4"><span class="section-number-3">3.4</span> Список предметов</h3>
+<div class="outline-text-3" id="text-3-4">
+</div><div id="outline-container-sec-3-4-1" class="outline-4">
+<h4 id="sec-3-4-1"><span class="section-number-4">3.4.1</span> 6002 Кафедра электронного приборостроения (ЭП)</h4>
+<div class="outline-text-4" id="text-3-4-1">
+</div><ol class="org-ol"><li><a id="sec-3-4-1-1" name="sec-3-4-1-1"></a>Иностранный язык<br  /></li>
+<li><a id="sec-3-4-1-2" name="sec-3-4-1-2"></a>История<br  /></li>
+<li><a id="sec-3-4-1-3" name="sec-3-4-1-3"></a>Информатика и информационные технологии<br  /></li>
+<li><a id="sec-3-4-1-4" name="sec-3-4-1-4"></a>Алгебра<br  /></li>
+<li><a id="sec-3-4-1-5" name="sec-3-4-1-5"></a>Химия<br  /></li>
+<li><a id="sec-3-4-1-6" name="sec-3-4-1-6"></a>Инженерная и компьютерная графика<br  /></li></ol>
+</div>
+<div id="outline-container-sec-3-4-2" class="outline-4">
+<h4 id="sec-3-4-2"><span class="section-number-4">3.4.2</span> 6005, 6006 Вычислительная техника (ВТ)</h4>
+<div class="outline-text-4" id="text-3-4-2">
+</div><ol class="org-ol"><li><a id="sec-3-4-2-1" name="sec-3-4-2-1"></a>Иностранный язык<br  /></li>
+<li><a id="sec-3-4-2-2" name="sec-3-4-2-2"></a>История<br  /></li>
+<li><a id="sec-3-4-2-3" name="sec-3-4-2-3"></a>Информатика и информационные технологии<br  /></li>
+<li><a id="sec-3-4-2-4" name="sec-3-4-2-4"></a>Алгебра<br  /></li>
+<li><a id="sec-3-4-2-5" name="sec-3-4-2-5"></a>Инженерная и компьютерная графика<br  /></li>
+<li><a id="sec-3-4-2-6" name="sec-3-4-2-6"></a>Программирование<br  /></li>
+<li><a id="sec-3-4-2-7" name="sec-3-4-2-7"></a>Практика программирования<br  /></li></ol>
+</div>
+<div id="outline-container-sec-3-4-3" class="outline-4">
+<h4 id="sec-3-4-3"><span class="section-number-4">3.4.3</span> 6081 Кафедра биотехнических систем (БТС)</h4>
+<div class="outline-text-4" id="text-3-4-3">
+</div><ol class="org-ol"><li><a id="sec-3-4-3-1" name="sec-3-4-3-1"></a>Иностранный язык<br  /></li>
+<li><a id="sec-3-4-3-2" name="sec-3-4-3-2"></a>История<br  /></li>
+<li><a id="sec-3-4-3-3" name="sec-3-4-3-3"></a>Информатика и информационные технологии<br  /></li>
+<li><a id="sec-3-4-3-4" name="sec-3-4-3-4"></a>Алгебра<br  /></li>
+<li><a id="sec-3-4-3-5" name="sec-3-4-3-5"></a>Химия<br  /></li>
+<li><a id="sec-3-4-3-6" name="sec-3-4-3-6"></a>Инженерная и компьютерная графика<br  /></li></ol>
+</div>
+<div id="outline-container-sec-3-4-4" class="outline-4">
+<h4 id="sec-3-4-4"><span class="section-number-4">3.4.4</span> 6091 Кафедра автоматики и процессов управления (АПУ)</h4>
+<div class="outline-text-4" id="text-3-4-4">
+</div><ol class="org-ol"><li><a id="sec-3-4-4-1" name="sec-3-4-4-1"></a>Иностранный язык<br  /></li>
+<li><a id="sec-3-4-4-2" name="sec-3-4-4-2"></a>История<br  /></li>
+<li><a id="sec-3-4-4-3" name="sec-3-4-4-3"></a>Информатика и информационные технологии<br  /></li>
+<li><a id="sec-3-4-4-4" name="sec-3-4-4-4"></a>Алгебра<br  /></li>
+<li><a id="sec-3-4-4-5" name="sec-3-4-4-5"></a>Химия<br  /></li>
+<li><a id="sec-3-4-4-6" name="sec-3-4-4-6"></a>Инженерная и компьютерная графика<br  /></li>
+<li><a id="sec-3-4-4-7" name="sec-3-4-4-7"></a>Программирование<br  /></li></ol>
+</div>
+</div>
+</div>
+
+
+<div id="outline-container-sec-4" class="outline-2">
+<h2 id="sec-4"><span class="section-number-2">4</span> Помощники</h2>
+<div class="outline-text-2" id="text-4">
+</div><div id="outline-container-sec-4-1" class="outline-3">
+<h3 id="sec-4-1"><span class="section-number-3">4.1</span> Официальные сайты ВУЗА</h3>
+<div class="outline-text-3" id="text-4-1">
+</div><div id="outline-container-sec-4-1-1" class="outline-4">
+<h4 id="sec-4-1-1"><span class="section-number-4">4.1.1</span> <a href="http://www.eltech.ru/">Главный сайт</a></h4>
+</div>
+<div id="outline-container-sec-4-1-2" class="outline-4">
+<h4 id="sec-4-1-2"><span class="section-number-4">4.1.2</span> <a href="http://eplace.eltech.ru/">Портал совместного обучения</a></h4>
+</div>
+<div id="outline-container-sec-4-1-3" class="outline-4">
+<h4 id="sec-4-1-3"><span class="section-number-4">4.1.3</span> <a href="http://library.eltech.ru/">Электронная библиотека</a></h4>
+</div>
+<div id="outline-container-sec-4-1-4" class="outline-4">
+<h4 id="sec-4-1-4"><span class="section-number-4">4.1.4</span> <a href="http://zao.vm-2.spb.ru/home/informatika-i-vycislitelnaa-tehnika">http://zao.vm-2.spb.ru/home/informatika-i-vycislitelnaa-tehnika</a></h4>
+</div>
+</div>
+
+<div id="outline-container-sec-4-2" class="outline-3">
+<h3 id="sec-4-2"><span class="section-number-3">4.2</span> Сайты</h3>
+<div class="outline-text-3" id="text-4-2">
+</div><div id="outline-container-sec-4-2-1" class="outline-4">
+<h4 id="sec-4-2-1"><span class="section-number-4">4.2.1</span> Общие</h4>
+<div class="outline-text-4" id="text-4-2-1">
+</div><ol class="org-ol"><li><a id="sec-4-2-1-1" name="sec-4-2-1-1"></a><a href="https://whataweek.github.io/">Какая сейчас неделя? Четная или нечетная?</a><br  /></li>
+
+<li><a id="sec-4-2-1-2" name="sec-4-2-1-2"></a><a href="http://interneturok.ru/">interneturok.ru | Видеоуроки по школьной программе</a><br  /></li></ol>
+</div>
+
+<div id="outline-container-sec-4-2-2" class="outline-4">
+<h4 id="sec-4-2-2"><span class="section-number-4">4.2.2</span> Математика</h4>
+<div class="outline-text-4" id="text-4-2-2">
+</div><ol class="org-ol"><li><a id="sec-4-2-2-1" name="sec-4-2-2-1"></a>Калькуляторы<br  /><ol class="org-ol"><li><a id="sec-4-2-2-1-1" name="sec-4-2-2-1-1"></a><a href="https://calc.loviotvet.ru/">calc.loviotvet.ru | Онлайн программа для решения примеров и уравнений</a><br  /></li></ol>
+</li>
+
+<li><a id="sec-4-2-2-2" name="sec-4-2-2-2"></a>Уроки<br  /><ol class="org-ol"><li><a id="sec-4-2-2-2-1" name="sec-4-2-2-2-1"></a>Websites<br  /><div class="outline-text-6" id="text-4-2-2-2-1">
+<ul class="org-ul">
+<li><a href="http://searchdatacenter.techtarget.com/definition/Mathematical-Symbols">What is Mathematical Symbols? - Definition from WhatIs.com</a>
+</li>
+</ul>
+</div>
+</li>
+
+<li><a id="sec-4-2-2-2-2" name="sec-4-2-2-2-2"></a>Wiki<br  /><div class="outline-text-6" id="text-4-2-2-2-2">
+<ul class="org-ul">
+<li><a href="https://en.wikibooks.org/wiki/Calculus/Complex_numbers">Calculus/Complex numbers - Wikibooks, open books for an open world</a>
+</li>
+<li><a href="https://en.wikipedia.org/wiki/Synthetic_division">Synthetic division - Wikipedia</a>
+</li>
+</ul>
+</div>
+</li>
+
+<li><a id="sec-4-2-2-2-3" name="sec-4-2-2-2-3"></a>Видео<br  /><ol class="org-ol"><li><a id="sec-4-2-2-2-3-1" name="sec-4-2-2-2-3-1"></a>Каналы<br  /><div class="outline-text-7" id="text-4-2-2-2-3-1">
+<ul class="org-ul">
+<li><a href="https://www.youtube.com/user/VirtualNerd/videos">Virtual Nerd: Real Help - YouTube</a>
+</li>
+</ul>
+</div>
+</li>
+
+<li><a id="sec-4-2-2-2-3-2" name="sec-4-2-2-2-3-2"></a>Комплексные числа и многочлены<br  /><div class="outline-text-7" id="text-4-2-2-2-3-2">
+<ul class="org-ul">
+<li><a href="https://www.youtube.com/watch?v=2HrSG0fdxLY">Imaginary Numbers Are Real Part 2: A Little History - YouTube</a>
+</li>
+<li><a href="https://www.youtube.com/watch?v=N9QOLrfcKNc">Imaginary Numbers Are Real Part 3: Cardan's Problem  - YouTube</a>
+</li>
+<li><a href="https://www.youtube.com/watch?v=KhdZvfH6fGg">Imaginary numbers - Simplifying large exponents - YouTube</a>
+</li>
+<li><a href="https://www.youtube.com/watch?v=gkW9PxDvKKk">Trigonometric Form of Complex Numbers - YouTube</a>
+</li>
+<li><a href="https://www.youtube.com/watch?v=HhlD7sX5Tp8">Roots of Complex Numbers, Ex 1 - YouTube</a>
+</li>
+<li><a href="https://math.stackexchange.com/questions/487739/determine-the-fourth-roots-of-16">complex numbers - Determine the fourth roots of -16 - Mathematics Stack Exchange</a>
+</li>
+<li><a href="https://www.youtube.com/watch?v=-quFMa04rBc">Square Roots of Complex Numbers (1 of 2: Establishing their nature) - YouTube</a>
+</li>
+<li><a href="http://www.freemathhelp.com/algebra-formulas.html">Algebra Formulas - Free Math Help</a>
+</li>
+<li><a href="https://www.youtube.com/watch?v=BHtE3JyZ-UQ">Understanding the Vocabulary of Algebra For Dummies - YouTube</a>
+</li>
+<li><a href="http://www.tiger-algebra.com/drill">About Tiger Algebera - The world's best Algebra Solver</a>
+</li>
+<li><a href="http://orion.math.iastate.edu/trig/sp/xcurrent/applets/complexfourthroot.html">Complex 4th Roots</a>
+</li>
+<li><a href="https://www.youtube.com/watch?v=kEf9gt3umnU">Understanding and Using DeMoivre's Theorem - YouTube</a>
+</li>
+<li><a href="https://www.youtube.com/watch?v=X5uFqpypDy4">❤︎² Basic Trigonometry: Sin, Cos, Tan (mathbff) - YouTube</a>
+</li>
+<li><a href="https://www.youtube.com/watch?v=wfYsiJcVWy0">What is a Logarithm : Logarithms, Lesson 1 - YouTube</a>
+</li>
+<li><a href="https://www.youtube.com/watch?v=zyGUw70FE6M">The complex fourth roots of -16i - YouTube</a>
+</li>
+<li><a href="https://www.youtube.com/watch?v=w-PCBJYBbGo">Converting Complex Numbers to Polar form - YouTube</a>
+</li>
+<li><a href="https://www.youtube.com/watch?v=-dhHrg-KbJ0">e to the pi i for dummies - YouTube</a>
+</li>
+<li><a href="https://www.youtube.com/watch?v=F_0yfvm0UoU">Understanding e to the pi i - YouTube</a>
+</li>
+<li><a href="https://www.youtube.com/watch?v=pg827uDPFqA">What is the number "e" and where does it come from? - YouTube</a>
+</li>
+<li><a href="https://www.youtube.com/watch?v=cC0fZ_lkFpQ">Math Antics - Circles, What Is PI? - YouTube</a>
+</li>
+<li><a href="https://www.youtube.com/watch?v=C_iKTTI1E34">Math Antics - Exponents &amp; Square Roots - YouTube</a>
+</li>
+<li><a href="https://www.youtube.com/watch?v=8RasCV_Lggg">Rectangular to polar form of complex number | Precalculus | Khan Academy - YouTube</a>
+</li>
+<li><a href="https://www.youtube.com/watch?v=T647CGsuOVU">Imaginary Numbers Are Real Part 1: Introduction - YouTube</a>
+</li>
+<li><a href="https://www.youtube.com/watch?v=DThAoT3q2V4">Imaginary Numbers Are Real Part 4: Bombelli's Solution - YouTube</a>
+</li>
+<li><a href="https://www.youtube.com/watch?v=d8-LO6FCna0">Fundamental theorem of algebra | Polynomial and rational functions | Algebra II | Khan Academy - YouTube</a>
+</li>
+<li><a href="https://www.youtube.com/watch?v=l6zdtKrv2nk">What's a Term in a Polynomial? - YouTube</a>
+</li>
+<li><a href="https://www.youtube.com/watch?v=RIHqIjt9jy0">How to factorise a cubic polynomial (Method 1) : ExamSolutions - YouTube</a>
+</li>
+<li><a href="https://www.youtube.com/watch?v=JCq1XFDVZA4">Long Division Song (Ho Hey Parody) - YouTube</a>
+</li>
+<li><a href="https://www.youtube.com/watch?v=FXgV9ySNusc">Polynomial division | Polynomial and rational functions | Algebra II | Khan Academy - YouTube</a>
+</li>
+<li><a href="https://www.youtube.com/watch?v=sPSGkNrShTk">Factor Polynomials Using Synthetic Division - YouTube</a>
+</li>
+<li><a href="https://www.youtube.com/watch?v=lLgRS0mUZLw">❤︎² How to Do Synthetic Division (mathbff) - YouTube</a>
+</li>
+<li><a href="https://www.youtube.com/watch?v=vVWm2gyROQQ">Factoring Trinomials-Algebra - YouTube</a>
+</li>
+<li><a href="https://www.youtube.com/watch?v=nz058Hil6rA">Criss Cross Factoring - YouTube</a>
+</li>
+<li><a href="https://www.youtube.com/watch?v=r1JAJfmRG5w">Factoring Trinomials with Leading Coefficient not 1 (fast way) - YouTube</a>
+</li>
+<li><a href="https://www.youtube.com/watch?v=TeuRCouKxW4">Precalculus 3.3.27 Factor f(x) into linear factor given k is a zero. f(x)=x<sup>4</sup>+2x<sup>3</sup>-7x<sup>2</sup>-20x-12 - YouTube</a>
+</li>
+<li><a href="https://www.youtube.com/watch?v=xJvrhlqwCr0">Finding Zeros and Factors of Polynomial Functions - YouTube</a>
+</li>
+<li><a href="https://www.youtube.com/watch?v=VqUCsv59CWs">How to solve Higher Degree Polynomials 4 terms factoring Algebra 2 Common Core Al2hU3L5 Real Roots - YouTube</a>
+</li>
+<li><a href="https://www.youtube.com/watch?v=wvJm2TjxML4">Master how to find the zeros of a polynomial function by factoring and determine multiplicity - YouTube</a>
+</li>
+<li><a href="https://www.youtube.com/watch?v=OrLz7yide2g">ZEROS of Hard-to-Factor/Non-Factorable Polynomial Functions: PART1 - YouTube</a>
+</li>
+<li><a href="https://www.youtube.com/watch?v=1kcRMgTYIyc">Factoring Polynomials Grade 12 Advanced Functions Lesson 3 6 10 17 12 - YouTube</a>
+</li>
+<li><a href="https://www.youtube.com/watch?v=QKU-H8VRzEA">1.5.1 Zeros Of A Function - YouTube</a>
+</li>
+<li><a href="https://www.youtube.com/watch?v=1byR9UEQJN0">Synthetic division | Polynomial and rational functions | Algebra II | Khan Academy - YouTube</a>
+</li>
+<li><a href="https://www.youtube.com/watch?v=-nlMXVrgtjw">Why synthetic division works | Polynomial and rational functions | Algebra II | Khan Academy - YouTube</a>
+</li>
+<li><a href="https://www.youtube.com/watch?v=mdgWnxohHNg">Dividing a Polynomial by a Trinomial Using Synthetic Division.mp4 - YouTube</a>
+</li>
+<li><a href="https://www.youtube.com/watch?v=cihil9dUZsE">Algebra 2 - find all of the zeros of a polynomial f(x) = x<sup>2</sup> +3x<sup>2</sup> - 25x + 21 - YouTube</a>
+</li>
+<li><a href="https://www.youtube.com/watch?v=rP-__zFngio">❖ Finding all the Zeros of a Polynomial - Example 3 ❖ - YouTube</a>
+</li>
+<li><a href="https://www.khanacademy.org/math/algebra-home/alg-rational-expr-eq-func/alg-partial-fraction/v/partial-fraction-expansion-1">(1) Intro to partial fraction expansion | Partial fraction expansion | Rational expressions, equations, &amp; functions | Algebra | Khan Academy</a>
+</li>
+</ul>
+</div>
+</li>
+
+<li><a id="sec-4-2-2-2-3-3" name="sec-4-2-2-2-3-3"></a>Матрицы<br  /><ol class="org-ol"><li><a id="sec-4-2-2-2-3-3-1" name="sec-4-2-2-2-3-3-1"></a><a href="https://www.youtube.com/watch?v=ruqkk5-zYTo">1. Определители 2 и 3 порядков - YouTube</a><br  /></li></ol>
+</li></ol>
+</li>
+
+<li><a id="sec-4-2-2-2-4" name="sec-4-2-2-2-4"></a>Текстовые<br  /><ol class="org-ol"><li><a id="sec-4-2-2-2-4-1" name="sec-4-2-2-2-4-1"></a>Главные страницы<br  /><ol class="org-ol"><li><a id="sec-4-2-2-2-4-1-1" name="sec-4-2-2-2-4-1-1"></a><a href="http://mathprofi.ru/index.html">mathprofi.ru | Высшая математика – просто и доступно</a><br  /></li>
+<li><a id="sec-4-2-2-2-4-1-2" name="sec-4-2-2-2-4-1-2"></a><a href="http://mathprofi.net/">mathprofi.net | Высшая математика – просто и доступно | 2 зеркало</a><br  /></li>
+<li><a id="sec-4-2-2-2-4-1-3" name="sec-4-2-2-2-4-1-3"></a><a href="http://www.webmath.ru/poleznoe.php">www.webmath.ru | Портал по высшей математике</a><br  /></li></ol>
+</li>
+
+<li><a id="sec-4-2-2-2-4-2" name="sec-4-2-2-2-4-2"></a>Комплексные числа<br  /><ol class="org-ol"><li><a id="sec-4-2-2-2-4-2-1" name="sec-4-2-2-2-4-2-1"></a><a href="http://www.mathprofi.ru/kompleksnye_chisla_dlya_chainikov.html">www.mathprofi.ru | Комплексные числа для чайников</a><br  /></li></ol>
+</li></ol>
+</li></ol>
+</li></ol>
+</div>
+
+<div id="outline-container-sec-4-2-3" class="outline-4">
+<h4 id="sec-4-2-3"><span class="section-number-4">4.2.3</span> История</h4>
+<div class="outline-text-4" id="text-4-2-3">
+</div><ol class="org-ol"><li><a id="sec-4-2-3-1" name="sec-4-2-3-1"></a>Антиплагиаты<br  /><ol class="org-ol"><li><a id="sec-4-2-3-1-1" name="sec-4-2-3-1-1"></a><a href="https://text.ru/antiplagiat">https://text.ru/antiplagiat</a><br  /></li>
+<li><a id="sec-4-2-3-1-2" name="sec-4-2-3-1-2"></a><a href="https://www.antiplagiat.ru">https://www.antiplagiat.ru</a><br  /></li></ol>
+</li></ol>
+</div>
+
+<div id="outline-container-sec-4-2-4" class="outline-4">
+<h4 id="sec-4-2-4"><span class="section-number-4">4.2.4</span> Иностранный язык</h4>
+<div class="outline-text-4" id="text-4-2-4">
+</div><ol class="org-ol"><li><a id="sec-4-2-4-1" name="sec-4-2-4-1"></a><a href="http://www.gingersoftware.com/grammarcheck">www.gingersoftware.com | grammarcheck</a><br  /></li>
+<li><a id="sec-4-2-4-2" name="sec-4-2-4-2"></a><a href="http://www.gingersoftware.com/products/sentence-rephraser">www.gingersoftware.com | sentence-rephraser</a><br  /></li></ol>
+</div>
+
+<div id="outline-container-sec-4-2-5" class="outline-4">
+<h4 id="sec-4-2-5"><span class="section-number-4">4.2.5</span> Инженерная и компьютерная графика</h4>
+<div class="outline-text-4" id="text-4-2-5">
+</div><ol class="org-ol"><li><a id="sec-4-2-5-1" name="sec-4-2-5-1"></a>Linux<br  /><div class="outline-text-5" id="text-4-2-5-1">
+<ul class="org-ul">
+<li><a href="http://sd.ascon.ru/otrs/public.pl?Action=PublicFAQZoom;ItemID=620;ZoomBackLink=Action=PublicFAQSearch;Subaction=Search;Keyword=%D0%9A%D0%9E%D0%9C%D0%9F%D0%90%D0%A1-3D;SortBy=FAQID;Order=Down;StartHit=1;">Работа КОМПАС-3D LT на ПК под управлением ОС Linuх - FAQ - ServiceDESK V3</a>
+</li>
+<li><a href="https://www.youtube.com/watch?v=GPZQcWMCZPM">Как установить Компас 3D в Linux (How setup Kompas 3D in Linux) - YouTube</a>
+</li>
+</ul>
+</div>
+</li>
+<li><a id="sec-4-2-5-2" name="sec-4-2-5-2"></a>Google Photo<br  /><div class="outline-text-5" id="text-4-2-5-2">
+<ul class="org-ul">
+<li><a href="https://goo.gl/photos/6P27Ru8hTWpNUrdr5">https://goo.gl/photos/6P27Ru8hTWpNUrdr5</a>
+</li>
+</ul>
+</div>
+</li>
+<li><a id="sec-4-2-5-3" name="sec-4-2-5-3"></a>Wikipedia<br  /><div class="outline-text-5" id="text-4-2-5-3">
+<ul class="org-ul">
+<li><a href="https://ru.wikipedia.org/wiki/%D0%95%D0%B4%D0%B8%D0%BD%D0%B0%D1%8F_%D1%81%D0%B8%D1%81%D1%82%D0%B5%D0%BC%D0%B0_%D0%BA%D0%BE%D0%BD%D1%81%D1%82%D1%80%D1%83%D0%BA%D1%82%D0%BE%D1%80%D1%81%D0%BA%D0%BE%D0%B9_%D0%B4%D0%BE%D0%BA%D1%83%D0%BC%D0%B5%D0%BD%D1%82%D0%B0%D1%86%D0%B8%D0%B8">Единая система конструкторской документации — Википедия</a>
+</li>
+<li><a href="http://www.eskd.ru/">ЕСКД ГОСТ - Единая система конструкторской документации</a>
+</li>
+</ul>
+</div>
+</li>
+<li><a id="sec-4-2-5-4" name="sec-4-2-5-4"></a>Youtube<br  /><div class="outline-text-5" id="text-4-2-5-4">
+<ul class="org-ul">
+<li><a href="https://www.youtube.com/watch?v=hhGjiKie1hE">Простановка размеров и обозначений в Компас 3D - YouTube</a>
+</li>
+<li><a href="https://www.youtube.com/watch?v=Er8CuTAQD-0">Видеоуроки по Компас 3D для начинающих #5 - Размеры на деталях - YouTube</a>
+</li>
+<li><a href="https://www.youtube.com/watch?v=QTwTpn4c_3A">Диаметральные и радиальные размеры в Компас 3D v11 (22/49) - YouTube</a>
+</li>
+<li><a href="https://www.youtube.com/watch?v=rDfgoQO6_wI">КОМПАС-3D V15.1 (урок №1) - YouTube</a>
+</li>
+<li><a href="https://www.youtube.com/channel/UCLzDDIvvBtLzp53kGd-fsKQ">Проекционное Черчение</a>
+</li>
+<li><a href="https://www.youtube.com/watch?v=Ecl0_ihlsz4">Черчение Три вида - YouTube</a>
+</li>
+<li><a href="https://www.youtube.com/watch?v=6z3mkMiJF-E">Инженерная графика(проекции) - YouTube</a>
+</li>
+<li><a href="https://www.youtube.com/watch?v=7bgepA4iTUY">Виды - YouTube</a>
+</li>
+<li><a href="https://www.youtube.com/watch?v=BvLHk9mUw6g">Uses of Descriptive Geometry in Mathematics : Math Skills - YouTube</a>
+</li>
+<li><a href="https://www.youtube.com/watch?v=YWwCLvA7_FA">Видеоуроки по КОМПАС 3D. Урок 5 Как построить по двум видам третий и ребро жесткости в Компасе - YouTube</a>
+</li>
+<li><a href="https://www.youtube.com/watch?v=bk2E8P33Ztc">Third Angle Projection Vs First Angle Projection 3D animation - YouTube</a>
+</li>
+<li><a href="https://www.youtube.com/watch?v=JGusKzEn8Gk">Orthographic Projection Drawing Tutorial | Orthographic Projection in Engineering Drawing - YouTube</a>
+</li>
+<li><a href="https://www.youtube.com/watch?v=NEKJ9S28Fh8">isometric view created from orthographic views - YouTube</a>
+</li>
+</ul>
+</div>
+<ol class="org-ol"><li><a id="sec-4-2-5-4-1" name="sec-4-2-5-4-1"></a><a href="https://vk.com/badya_channel">Badya Channel</a><br  /><div class="outline-text-6" id="text-4-2-5-4-1">
+<ul class="org-ul">
+<li><a href="http://badyaengi.blogspot.ru/">http://badyaengi.blogspot.ru/</a>
+</li>
+</ul>
+</div>
+</li></ol>
+</li>
+<li><a id="sec-4-2-5-5" name="sec-4-2-5-5"></a>Сайты<br  /><ol class="org-ol"><li><a id="sec-4-2-5-5-1" name="sec-4-2-5-5-1"></a><a href="http://www.2d-3d.ru/">Чертежи 3D модели 2D-3D.RU. Готовые проекты.</a><br  /><div class="outline-text-6" id="text-4-2-5-5-1">
+<ul class="org-ul">
+<li><a href="http://www.2d-3d.ru/gosti/">ГОСТы - правила выполнения чертежей, скачать</a>
+</li>
+<li><a href="http://www.2d-3d.ru/gosti/82-gost-2.305-68-izobrazhenija-vidy.html">ГОСТ 2.305-68 Изображения - виды, разрезы, сечения » Чертежи 3D модели 2D-3D.RU. Готовые проекты.</a>
+</li>
+</ul>
+</div>
+</li></ol>
+</li></ol>
+</div>
+</div>
+</div>
+
+<div id="outline-container-sec-5" class="outline-2">
+<h2 id="sec-5"><span class="section-number-2">5</span> Справки</h2>
+<div class="outline-text-2" id="text-5">
+<ul class="org-ul">
+<li><a href="https://yadi.sk/d/QJoB79mivT4Ne">Yandex Disk</a>
+</li>
+</ul>
+</div>
+<div id="outline-container-sec-5-1" class="outline-3">
+<h3 id="sec-5-1"><span class="section-number-3">5.1</span> Справка вызова</h3>
+<div class="outline-text-3" id="text-5-1">
+<p>
+Для оформления <b>справки вызова</b> от ВУЗа для работы,
+необходимо <b>до ноября</b> принести заявку в деканат (аудиториях 3309).
+</p>
+</div>
+</div>
+
+<div id="outline-container-sec-5-2" class="outline-3">
+<h3 id="sec-5-2"><span class="section-number-3">5.2</span> Общежитие</h3>
+<div class="outline-text-3" id="text-5-2">
+<p>
+Если нужно общежитие на время сессии, надо заполнить бланк <b>до декабря</b>.
+</p>
+</div>
+</div>
+
+<div id="outline-container-sec-5-3" class="outline-3">
+<h3 id="sec-5-3"><span class="section-number-3">5.3</span> Студенческий билет</h3>
+<div class="outline-text-3" id="text-5-3">
+<p>
+Донести фотографии для студенческого.
+Всего нужно сдать 4 фотографии.
+Работают с 13:00 до 19:00.
+</p>
+
+<p>
+Студенческий билет будет готов через две недели, после подачи оставшихся фото.
+</p>
+</div>
+</div>
+
+<div id="outline-container-sec-5-4" class="outline-3">
+<h3 id="sec-5-4"><span class="section-number-3">5.4</span> Зачетная книжка</h3>
+<div class="outline-text-3" id="text-5-4">
+<p>
+Будет выдана перед сессией.
+</p>
+</div>
+</div>
+</div>
+
+<div id="outline-container-sec-6" class="outline-2">
+<h2 id="sec-6"><span class="section-number-2">6</span> Контакты</h2>
+<div class="outline-text-2" id="text-6">
+</div><div id="outline-container-sec-6-1" class="outline-3">
+<h3 id="sec-6-1"><span class="section-number-3">6.1</span> Преподаватели</h3>
+<div class="outline-text-3" id="text-6-1">
+</div><ol class="org-ol"><li><a id="sec-6-1-0-1" name="sec-6-1-0-1"></a>Иностранный язык<br  /><ol class="org-ol"><li><a id="sec-6-1-0-1-1" name="sec-6-1-0-1-1"></a>Елена Ивановна Беседина<br  /><div class="outline-text-6" id="text-6-1-0-1-1">
+<p>
+До 17:00
+3319
+<a href="mailto:elivbesedina@mail.ru">elivbesedina@mail.ru</a>
+346-45-17
+ГФ
+ИНЯЗ
+</p>
+</div>
+</li></ol>
+</li>
+<li><a id="sec-6-1-0-2" name="sec-6-1-0-2"></a>История<br  /><ol class="org-ol"><li><a id="sec-6-1-0-2-1" name="sec-6-1-0-2-1"></a>Меньшиков Дмитрий Никитович<br  /><div class="outline-text-6" id="text-6-1-0-2-1">
+<p>
+5323
+<a href="mailto:ikgp_etu@mail.ru">ikgp<sub>etu</sub>@mail.ru</a>
+234-67-67
+ГФ
+ИКГП
+</p>
+</div>
+</li></ol>
+</li>
+<li><a id="sec-6-1-0-3" name="sec-6-1-0-3"></a>Информатика и информационные технологии<br  /><div class="outline-text-5" id="text-6-1-0-3">
+<p>
+Матвеева Ирина Витальевна
+<a href="mailto:ivmatveeva@etu.ru">ivmatveeva@etu.ru</a>
++7-921-302-83-91
+234-36-75
+ФКТИ
+САПР
+<a href="http://eplace.eltech.ru/">eplace.eltech.ru</a>
+</p>
+</div>
+</li>
+<li><a id="sec-6-1-0-4" name="sec-6-1-0-4"></a>Алгебра и геометрия<br  /><ol class="org-ol"><li><a id="sec-6-1-0-4-1" name="sec-6-1-0-4-1"></a>Абрамова Мария Николаевна<br  /><div class="outline-text-6" id="text-6-1-0-4-1">
+<p>
+Среда, Вторник, Четверг
+14:00-19:00
+3312
+<a href="mailto:matemleti@gmail.com">matemleti@gmail.com
+</a>234-63-81
+ФКТИ
+ВМ-2
+</p>
+</div>
+</li>
+<li><a id="sec-6-1-0-4-2" name="sec-6-1-0-4-2"></a>Казакевич Виктория Григорьевна<br  /><div class="outline-text-6" id="text-6-1-0-4-2">
+<p>
+Среда, Вторник, Четверг
+14:00-19:00
+3312
+<a href="mailto:matemleti@gmail.com">matemleti@gmail.com</a>
+234-63-81
+ФКТИ
+ВМ-2
+<a href="http://zao.vm-2.spb.ru/">zao.vm-2.spb.ru</a>
+</p>
+</div>
+</li></ol>
+</li>
+<li><a id="sec-6-1-0-5" name="sec-6-1-0-5"></a>Химия<br  /><ol class="org-ol"><li><a id="sec-6-1-0-5-1" name="sec-6-1-0-5-1"></a><a href="mailto:bugrov.an@mail.ru">bugrov.an@mail.ru</a>, <a href="mailto:alexander.n.bugrov@gmail.com">alexander.n.bugrov@gmail.com</a><br  /></li></ol>
+</li>
+<li><a id="sec-6-1-0-6" name="sec-6-1-0-6"></a>Инженерная и компьютерная графика<br  /><ol class="org-ol"><li><a id="sec-6-1-0-6-1" name="sec-6-1-0-6-1"></a>Владимир Николаевич Вересов<br  /><div class="outline-text-6" id="text-6-1-0-6-1">
+<p>
+Среда
+18:00
+5576
+<a href="mailto:vnveresov@etu.ru">vnveresov@etu.ru</a>
+346-29-17
+ФИБС
+ПМИГ
+</p>
+</div>
+</li></ol>
+</li>
+<li><a id="sec-6-1-0-7" name="sec-6-1-0-7"></a>Программирование<br  /><ol class="org-ol"><li><a id="sec-6-1-0-7-1" name="sec-6-1-0-7-1"></a>Власенко Сергей Владимирович<br  /><div class="outline-text-6" id="text-6-1-0-7-1">
+<p>
+<a href="mailto:s_v_vlasenko@mail.ru">s<sub>v</sub><sub>vlasenko</sub>@mail.ru</a>
+234-37-98
+ФКТИ
+АПУ
+</p>
+</div>
+</li></ol>
+</li>
+<li><a id="sec-6-1-0-8" name="sec-6-1-0-8"></a>Практика программирования<br  /><ol class="org-ol"><li><a id="sec-6-1-0-8-1" name="sec-6-1-0-8-1"></a>Владимир Иванович Анисимов<br  /><div class="outline-text-6" id="text-6-1-0-8-1">
+<p>
+11:56, 12:44
+<a href="mailto:vanisimov2005@mail.ru">vanisimov2005@mail.ru</a>, <a href="mailto:vanisimov2015@mail.ru">vanisimov2015@mail.ru</a>
+<a href="http://vianisimov2005.narod.ru/">vianisimov2005.narod.ru</a>
+</p>
+</div>
+</li></ol>
+</li>
+
+<li><a id="sec-6-1-0-9" name="sec-6-1-0-9"></a>Программирование группа 6091<br  /><ol class="org-ol"><li><a id="sec-6-1-0-9-1" name="sec-6-1-0-9-1"></a><a href="mailto:alexander.n.bugrov@gmail.com">alexander.n.bugrov@gmail.com</a><br  /></li></ol>
+</li></ol>
+</div>
+
+<div id="outline-container-sec-6-2" class="outline-3">
+<h3 id="sec-6-2"><span class="section-number-3">6.2</span> Деканат</h3>
+<div class="outline-text-3" id="text-6-2">
+</div><div id="outline-container-sec-6-2-1" class="outline-4">
+<h4 id="sec-6-2-1"><span class="section-number-4">6.2.1</span> Заместитель декана</h4>
+<div class="outline-text-4" id="text-6-2-1">
+</div><ol class="org-ol"><li><a id="sec-6-2-1-1" name="sec-6-2-1-1"></a>Шануренко Александр Константинович<br  /><div class="outline-text-5" id="text-6-2-1-1">
+<p>
+<a href="mailto:dekanatof@yandex.ru">dekanatof@yandex.ru</a>
+Понедельник, Четверг
+17:00 - 19:00
+ОФ
+</p>
+</div>
+</li></ol>
+</div>
+
+<div id="outline-container-sec-6-2-2" class="outline-4">
+<h4 id="sec-6-2-2"><span class="section-number-4">6.2.2</span> Секретарь декана</h4>
+<div class="outline-text-4" id="text-6-2-2">
+</div><ol class="org-ol"><li><a id="sec-6-2-2-0-1" name="sec-6-2-2-0-1"></a>Голубкова<br  /><div class="outline-text-6" id="text-6-2-2-0-1">
+<p>
+3309
+<a href="mailto:dekanatof@yandex.ru">dekanatof@yandex.ru</a>
+346-48-37(заочка) и 234-39-37
+Понедельник, Вторник, Четверг
+13:00-19:00
+ОФ
+</p>
+</div>
+</li>
+
+<li><a id="sec-6-2-2-0-2" name="sec-6-2-2-0-2"></a>Гуком Юлия Васильевна<br  /><div class="outline-text-6" id="text-6-2-2-0-2">
+<p>
+3309
+<a href="mailto:dekanatof@yandex.ru">dekanatof@yandex.ru</a>
+234-39-37, 346-48-37
+Понедельник, Вторник, Четверг
+13:00-19:00
+ОФ
+</p>
+</div>
+</li></ol>
+</div>
+</div>
+
+<div id="outline-container-sec-6-3" class="outline-3">
+<h3 id="sec-6-3"><span class="section-number-3">6.3</span> Библиотека</h3>
+<div class="outline-text-3" id="text-6-3">
+</div><ol class="org-ol"><li><a id="sec-6-3-0-0-1" name="sec-6-3-0-0-1"></a>Директор библиотеки<br  /><ol class="org-ol"><li><a id="sec-6-3-0-0-1-1" name="sec-6-3-0-0-1-1"></a>Сухова Розалия Аглиулловна<br  /><div class="outline-text-7" id="text-6-3-0-0-1-1">
+<p>
+<a href="mailto:RASuhova@mail.eltech.ru">RASuhova@mail.eltech.ru</a>
+(812)-346-45-19
+</p>
+</div>
+</li></ol>
+</li>
+
+<li><a id="sec-6-3-0-0-2" name="sec-6-3-0-0-2"></a>Заместитель директора библиотеки<br  /><ol class="org-ol"><li><a id="sec-6-3-0-0-2-1" name="sec-6-3-0-0-2-1"></a>Косьянчук Татьяна Николаевна<br  /><div class="outline-text-7" id="text-6-3-0-0-2-1">
+<p>
+(812)-346-45-19
+</p>
+</div>
+</li></ol>
+</li>
+
+<li><a id="sec-6-3-0-0-3" name="sec-6-3-0-0-3"></a>Заведующая отделом комплектования<br  /><ol class="org-ol"><li><a id="sec-6-3-0-0-3-1" name="sec-6-3-0-0-3-1"></a>Овезова Татьяна Леонидовна<br  /><div class="outline-text-7" id="text-6-3-0-0-3-1">
+<p>
+<a href="mailto:ovezova72@mail.ru">ovezova72@mail.ru</a>
+(812)-347-69-33(22)
+</p>
+</div>
+</li></ol>
+</li>
+
+<li><a id="sec-6-3-0-0-4" name="sec-6-3-0-0-4"></a>Начальник отдела автоматизации библиотечно-информационных процессов<br  /><ol class="org-ol"><li><a id="sec-6-3-0-0-4-1" name="sec-6-3-0-0-4-1"></a>Пирог Виктор Павлович<br  /><div class="outline-text-7" id="text-6-3-0-0-4-1">
+<p>
+<a href="mailto:VPPirog@mail.eltech.ru">VPPirog@mail.eltech.ru</a>
+(812)-346-33-95(27)
+</p>
+</div>
+</li></ol>
+</li></ol>
+</div>
+</div>
+</div>
+<div id="postamble" class="status">
+<p class="date">Created: 2016-10-23 Sun 09:43</p>
+<p class="creator"><a href="http://www.gnu.org/software/emacs/">Emacs</a> 24.4.1 (<a href="http://orgmode.org">Org</a> mode 8.2.10)</p>
+<p class="validation"><a href="http://validator.w3.org/check?uri=referer">Validate</a></p>
+</div>
+</body>
+</html>
