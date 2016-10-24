@@ -1,7 +1,6 @@
 #+TITLE: СПбГЭТУ «ЛЭТИ» | 6005 | Вычислительная техника (ВТ)
 
 #+LANGUAGE: ru
-#+STARTUP: showeverything
 #+AUTHOR:
 #+SETUPFILE: ~/.emacs.d/org-html-themes/setup/theme-bigblow-local.setup
 
@@ -158,7 +157,6 @@ DEADLINE: <2016-10-31 Mon>
 **** Химия
 **** Инженерная и компьютерная графика
 **** Программирование
-
 
 * Помощники
 
