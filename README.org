@@ -298,6 +298,13 @@ DEADLINE: <2016-10-31 Mon>
 - [[https://www.youtube.com/watch?v=bk2E8P33Ztc][Third Angle Projection Vs First Angle Projection 3D animation - YouTube]]
 - [[https://www.youtube.com/watch?v=JGusKzEn8Gk][Orthographic Projection Drawing Tutorial | Orthographic Projection in Engineering Drawing - YouTube]]
 - [[https://www.youtube.com/watch?v=NEKJ9S28Fh8][isometric view created from orthographic views - YouTube]]
+- [[https://www.youtube.com/watch?v=1Hm5Zyjmjac][Intro to Mechanical Engineering Drawing - YouTube]]
+- [[https://www.youtube.com/watch?v=a2TolF5wRj4][Engineering Standards - YouTube]]
+- [[https://www.youtube.com/watch?v=5Dgd7jiT00w][Draw the missing orthogonal views - YouTube]]
+- [[https://www.youtube.com/watch?v=KVAKPtKhFmI&feature=youtu.be][Corrected orthogonal drwg 3 - YouTube]]
+- [[https://www.youtube.com/watch?v=Sw5O2bbQAu8][missing view prob - YouTube]]
+- [[https://www.youtube.com/watch?v=OHkNObinlpM][How to Draw an object with Orthographic Projection Part 1 - YouTube]]
+
 ***** [[https://vk.com/badya_channel][Badya Channel]]
 - http://badyaengi.blogspot.ru/
 **** Сайты
