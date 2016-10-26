@@ -116,6 +116,8 @@ DEADLINE: <2016-10-31 Mon>
 - 10000-20000 знаков (10 листов) в общем на 3 вопроса.
 - 14 размер TimesNewRoman
 
+*** TODO 2016-11-05 | [[https://yadi.sk/d/-weSHexnvSta6][Математика]] | [[https://yadi.sk/i/2J-auRpnvckfv][Контрольная работа № 2]]
+    DEADLINE: <2016-11-05 Sat>
 ** Материалы
 - [[https://yadi.sk/d/lEmOIxyhvStZ7][Иностранный язык]]
 - [[https://yadi.sk/d/EVAqJiLnvStZo][История]]
