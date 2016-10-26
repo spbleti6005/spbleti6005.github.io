@@ -251,7 +251,8 @@ DEADLINE: <2016-10-31 Mon>
 
 ****** Матрицы
 
-******* [[https://www.youtube.com/watch?v=ruqkk5-zYTo][1. Определители 2 и 3 порядков - YouTube]]
+- [[https://www.youtube.com/watch?v=ruqkk5-zYTo][1. Определители 2 и 3 порядков - YouTube]]
+- [[https://en.wikipedia.org/wiki/Gaussian_elimination][Gaussian elimination - Wikipedia]]
 
 ***** Текстовые
 
