@@ -118,6 +118,7 @@ DEADLINE: <2016-10-31 Mon>
 
 *** TODO 2016-11-05 | [[https://yadi.sk/d/-weSHexnvSta6][Математика]] | [[https://yadi.sk/i/2J-auRpnvckfv][Контрольная работа № 2]]
     DEADLINE: <2016-11-05 Sat>
+*** TODO | Иностранный язык | [[https://yadi.sk/i/ywPrDlwjxgdPR][Вопросы]]
 ** Материалы
 - [[https://yadi.sk/d/lEmOIxyhvStZ7][Иностранный язык]]
 - [[https://yadi.sk/d/EVAqJiLnvStZo][История]]
