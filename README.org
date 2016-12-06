@@ -2,7 +2,7 @@
 
 #+LANGUAGE: ru
 #+AUTHOR:
-#+SETUPFILE: ~/.emacs.d/org-html-themes/setup/theme-bigblow-local.setup
+#+SETUPFILE: ~/.emacs.d/private/org-html-themes/setup/theme-bigblow-local.setup
 
 Факультет компьютерных технологий и информатики (ФКТИ).
 
