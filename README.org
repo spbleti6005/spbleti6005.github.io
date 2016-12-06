@@ -45,8 +45,13 @@ alex@mail.ru
 
 * Сообщество
 ** Почтовая рассылка
-На [[mailto:leti.6005@yandex.ru][leti.6005@yandex.ru]] и [[mailto:leti.6006@yandex.ru][leti.6006@yandex.ru]] преподаватели отправляют
-задания, и с нее же мы отправляем результаты.
+Мы отправляем задания преподователям с:
+- [[mailto:leti.6005@yandex.ru][leti.6005@yandex.ru]]
+- [[mailto:leti.6006@yandex.ru][leti.6006@yandex.ru]]
+- [[mailto:leti.6091@yandex.ru][leti.6091@yandex.ru]]
+
+Также можно подписаться на почтовую расслыку,
+отправив письмо с занием на любой из этих электронный ящиков.
 
 ** Группа ВКонтакте
 - [[https://vk.com/club128816610][Группа - VK]
