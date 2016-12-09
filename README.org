@@ -85,6 +85,7 @@ alex@mail.ru
 - [[https://drive.google.com/drive/folders/0BwXp5Vsxw6GlaTh4WlBaUTNZVmc][drive.google.com | 4005]]
 
 ** Задания
+Зачеркнутые задания можно развернуть нажав "►" в конце строки.
 *** DONE 2016-09-25 | [[https://yadi.sk/d/lEmOIxyhvStZ7][Иностранный язык]] | [[https://yadi.sk/i/zySQ_5l3vVxed][Intrance Test]]
 CLOSED: [2016-09-25 Sun 11:42] DEADLINE: <2016-09-25 Sun>
 *** DONE 2016-10-14 | [[https://yadi.sk/d/-weSHexnvSta6][Математика]] | [[https://yadi.sk/i/2J-auRpnvckfv][Контрольная работа № 1]]
