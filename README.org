@@ -186,170 +186,42 @@ CLOSED: [2016-12-06 Tue 23:00] DEADLINE: <2016-10-31 Mon>
 - http://zao.vm-2.spb.ru/home/informatika-i-vycislitelnaa-tehnika
 
 ** Сайты
+Полезные ресурсы для решения всякого.
 
 *** Общие
-
 - [[https://whataweek.github.io/][Какая сейчас неделя? Четная или нечетная?]]
-
 - [[http://interneturok.ru/][interneturok.ru | Видеоуроки по школьной программе]]
 
-*** Математика
-
-**** Калькуляторы
+*** Калькуляторы
 - [[http://www.wolframalpha.com/][Wolfram|Alpha: Computational Knowledge Engine]]     
 - [[https://calc.loviotvet.ru/][calc.loviotvet.ru | Онлайн программа для решения примеров и уравнений]]
+- [[http://mathprofi.ru/index.html][mathprofi.ru | Высшая математика – просто и доступно]]
+- [[http://www.webmath.ru/poleznoe.php][www.webmath.ru | Портал по высшей математике]]
 
-**** Уроки
-
-***** Websites
-
-- [[http://searchdatacenter.techtarget.com/definition/Mathematical-Symbols][What is Mathematical Symbols? - Definition from WhatIs.com]]
-
-***** Wiki
-- [[https://en.wikibooks.org/wiki/Calculus/Complex_numbers][Calculus/Complex numbers - Wikibooks, open books for an open world]]
-- [[https://en.wikipedia.org/wiki/Synthetic_division][Synthetic division - Wikipedia]]
-
-***** Видео
-
-****** Каналы
-
-- [[https://www.youtube.com/user/VirtualNerd/videos][Virtual Nerd: Real Help - YouTube]]
-
-****** Комплексные числа и многочлены
-
-- [[https://www.youtube.com/watch?v=2HrSG0fdxLY][Imaginary Numbers Are Real Part 2: A Little History - YouTube]]
-- [[https://www.youtube.com/watch?v=N9QOLrfcKNc][Imaginary Numbers Are Real Part 3: Cardan's Problem  - YouTube]]
-- [[https://www.youtube.com/watch?v=KhdZvfH6fGg][Imaginary numbers - Simplifying large exponents - YouTube]]
-- [[https://www.youtube.com/watch?v=gkW9PxDvKKk][Trigonometric Form of Complex Numbers - YouTube]]
-- [[https://www.youtube.com/watch?v=HhlD7sX5Tp8][Roots of Complex Numbers, Ex 1 - YouTube]]
-- [[https://math.stackexchange.com/questions/487739/determine-the-fourth-roots-of-16][complex numbers - Determine the fourth roots of -16 - Mathematics Stack Exchange]]
-- [[https://www.youtube.com/watch?v=-quFMa04rBc][Square Roots of Complex Numbers (1 of 2: Establishing their nature) - YouTube]]
-- [[http://www.freemathhelp.com/algebra-formulas.html][Algebra Formulas - Free Math Help]]
-- [[https://www.youtube.com/watch?v=BHtE3JyZ-UQ][Understanding the Vocabulary of Algebra For Dummies - YouTube]]
-- [[http://www.tiger-algebra.com/drill][About Tiger Algebera - The world's best Algebra Solver]]
-- [[http://orion.math.iastate.edu/trig/sp/xcurrent/applets/complexfourthroot.html][Complex 4th Roots]]
-- [[https://www.youtube.com/watch?v=kEf9gt3umnU][Understanding and Using DeMoivre's Theorem - YouTube]]
-- [[https://www.youtube.com/watch?v=X5uFqpypDy4][❤︎² Basic Trigonometry: Sin, Cos, Tan (mathbff) - YouTube]]
-- [[https://www.youtube.com/watch?v=wfYsiJcVWy0][What is a Logarithm : Logarithms, Lesson 1 - YouTube]]
-- [[https://www.youtube.com/watch?v=zyGUw70FE6M][The complex fourth roots of -16i - YouTube]]
-- [[https://www.youtube.com/watch?v=w-PCBJYBbGo][Converting Complex Numbers to Polar form - YouTube]]
-- [[https://www.youtube.com/watch?v=-dhHrg-KbJ0][e to the pi i for dummies - YouTube]]
-- [[https://www.youtube.com/watch?v=F_0yfvm0UoU][Understanding e to the pi i - YouTube]]
-- [[https://www.youtube.com/watch?v=pg827uDPFqA][What is the number "e" and where does it come from? - YouTube]]
-- [[https://www.youtube.com/watch?v=cC0fZ_lkFpQ][Math Antics - Circles, What Is PI? - YouTube]]
-- [[https://www.youtube.com/watch?v=C_iKTTI1E34][Math Antics - Exponents & Square Roots - YouTube]]
-- [[https://www.youtube.com/watch?v=8RasCV_Lggg][Rectangular to polar form of complex number | Precalculus | Khan Academy - YouTube]]
-- [[https://www.youtube.com/watch?v=T647CGsuOVU][Imaginary Numbers Are Real Part 1: Introduction - YouTube]]
-- [[https://www.youtube.com/watch?v=DThAoT3q2V4][Imaginary Numbers Are Real Part 4: Bombelli's Solution - YouTube]]
-- [[https://www.youtube.com/watch?v=d8-LO6FCna0][Fundamental theorem of algebra | Polynomial and rational functions | Algebra II | Khan Academy - YouTube]]
-- [[https://www.youtube.com/watch?v=l6zdtKrv2nk][What's a Term in a Polynomial? - YouTube]]
-- [[https://www.youtube.com/watch?v=RIHqIjt9jy0][How to factorise a cubic polynomial (Method 1) : ExamSolutions - YouTube]]
-- [[https://www.youtube.com/watch?v=JCq1XFDVZA4][Long Division Song (Ho Hey Parody) - YouTube]]
-- [[https://www.youtube.com/watch?v=FXgV9ySNusc][Polynomial division | Polynomial and rational functions | Algebra II | Khan Academy - YouTube]]
-- [[https://www.youtube.com/watch?v=sPSGkNrShTk][Factor Polynomials Using Synthetic Division - YouTube]]
-- [[https://www.youtube.com/watch?v=lLgRS0mUZLw][❤︎² How to Do Synthetic Division (mathbff) - YouTube]]
-- [[https://www.youtube.com/watch?v=vVWm2gyROQQ][Factoring Trinomials-Algebra - YouTube]]
-- [[https://www.youtube.com/watch?v=nz058Hil6rA][Criss Cross Factoring - YouTube]]
-- [[https://www.youtube.com/watch?v=r1JAJfmRG5w][Factoring Trinomials with Leading Coefficient not 1 (fast way) - YouTube]]
-- [[https://www.youtube.com/watch?v=TeuRCouKxW4][Precalculus 3.3.27 Factor f(x) into linear factor given k is a zero. f(x)=x^4+2x^3-7x^2-20x-12 - YouTube]]
-- [[https://www.youtube.com/watch?v=xJvrhlqwCr0][Finding Zeros and Factors of Polynomial Functions - YouTube]]
-- [[https://www.youtube.com/watch?v=VqUCsv59CWs][How to solve Higher Degree Polynomials 4 terms factoring Algebra 2 Common Core Al2hU3L5 Real Roots - YouTube]]
-- [[https://www.youtube.com/watch?v=wvJm2TjxML4][Master how to find the zeros of a polynomial function by factoring and determine multiplicity - YouTube]]
-- [[https://www.youtube.com/watch?v=OrLz7yide2g][ZEROS of Hard-to-Factor/Non-Factorable Polynomial Functions: PART1 - YouTube]]
-- [[https://www.youtube.com/watch?v=1kcRMgTYIyc][Factoring Polynomials Grade 12 Advanced Functions Lesson 3 6 10 17 12 - YouTube]]
-- [[https://www.youtube.com/watch?v=QKU-H8VRzEA][1.5.1 Zeros Of A Function - YouTube]]
-- [[https://www.youtube.com/watch?v=1byR9UEQJN0][Synthetic division | Polynomial and rational functions | Algebra II | Khan Academy - YouTube]]
-- [[https://www.youtube.com/watch?v=-nlMXVrgtjw][Why synthetic division works | Polynomial and rational functions | Algebra II | Khan Academy - YouTube]]
-- [[https://www.youtube.com/watch?v=mdgWnxohHNg][Dividing a Polynomial by a Trinomial Using Synthetic Division.mp4 - YouTube]]
-- [[https://www.youtube.com/watch?v=cihil9dUZsE][Algebra 2 - find all of the zeros of a polynomial f(x) = x^2 +3x^2 - 25x + 21 - YouTube]]
-- [[https://www.youtube.com/watch?v=rP-__zFngio][❖ Finding all the Zeros of a Polynomial - Example 3 ❖ - YouTube]]
-- [[https://www.khanacademy.org/math/algebra-home/alg-rational-expr-eq-func/alg-partial-fraction/v/partial-fraction-expansion-1][(1) Intro to partial fraction expansion | Partial fraction expansion | Rational expressions, equations, & functions | Algebra | Khan Academy]]
-
-****** Матрицы
-
-- [[https://www.youtube.com/watch?v=ruqkk5-zYTo][1. Определители 2 и 3 порядков - YouTube]]
-- [[https://en.wikipedia.org/wiki/Gaussian_elimination][Gaussian elimination - Wikipedia]]
-
-***** Текстовые
-
-****** Главные страницы
-
-******* [[http://mathprofi.ru/index.html][mathprofi.ru | Высшая математика – просто и доступно]]
-******* [[http://mathprofi.net/][mathprofi.net | Высшая математика – просто и доступно | 2 зеркало]]
-******* [[http://www.webmath.ru/poleznoe.php][www.webmath.ru | Портал по высшей математике]]
-
-****** Комплексные числа
-
-******* [[http://www.mathprofi.ru/kompleksnye_chisla_dlya_chainikov.html][www.mathprofi.ru | Комплексные числа для чайников]]
-
-*** История
-
-**** Антиплагиаты
-
+*** Антиплагиаты
 - https://text.ru/antiplagiat
 - https://www.antiplagiat.ru
 
 *** Иностранный язык
-
 - [[http://www.gingersoftware.com/grammarcheck][www.gingersoftware.com | grammarcheck]]
 - [[http://www.gingersoftware.com/products/sentence-rephraser][www.gingersoftware.com | sentence-rephraser]]
 
-*** Инженерная и компьютерная графика
-**** Linux
-- [[http://sd.ascon.ru/otrs/public.pl?Action=PublicFAQZoom;ItemID=620;ZoomBackLink=Action=PublicFAQSearch;Subaction=Search;Keyword=%D0%9A%D0%9E%D0%9C%D0%9F%D0%90%D0%A1-3D;SortBy=FAQID;Order=Down;StartHit=1;][Работа КОМПАС-3D LT на ПК под управлением ОС Linuх - FAQ - ServiceDESK V3]]
-- [[https://www.youtube.com/watch?v=GPZQcWMCZPM][Как установить Компас 3D в Linux (How setup Kompas 3D in Linux) - YouTube]]
-**** Google Photo
-- https://goo.gl/photos/6P27Ru8hTWpNUrdr5
-**** Wikipedia
-- [[https://ru.wikipedia.org/wiki/%D0%95%D0%B4%D0%B8%D0%BD%D0%B0%D1%8F_%D1%81%D0%B8%D1%81%D1%82%D0%B5%D0%BC%D0%B0_%D0%BA%D0%BE%D0%BD%D1%81%D1%82%D1%80%D1%83%D0%BA%D1%82%D0%BE%D1%80%D1%81%D0%BA%D0%BE%D0%B9_%D0%B4%D0%BE%D0%BA%D1%83%D0%BC%D0%B5%D0%BD%D1%82%D0%B0%D1%86%D0%B8%D0%B8][Единая система конструкторской документации — Википедия]]
-- [[http://www.eskd.ru/][ЕСКД ГОСТ - Единая система конструкторской документации]]
-- [[https://en.wikipedia.org/wiki/Orthographic_projection][Orthographic projection - Wikipedia]]
-- [[https://en.wikipedia.org/wiki/Axonometric_projection][Axonometric projection - Wikipedia]]
-**** Youtube
-- [[https://www.youtube.com/watch?v=hhGjiKie1hE][Простановка размеров и обозначений в Компас 3D - YouTube]]
-- [[https://www.youtube.com/watch?v=Er8CuTAQD-0][Видеоуроки по Компас 3D для начинающих #5 - Размеры на деталях - YouTube]]
-- [[https://www.youtube.com/watch?v=QTwTpn4c_3A][Диаметральные и радиальные размеры в Компас 3D v11 (22/49) - YouTube]]
-- [[https://www.youtube.com/watch?v=rDfgoQO6_wI][КОМПАС-3D V15.1 (урок №1) - YouTube]]
-- [[https://www.youtube.com/channel/UCLzDDIvvBtLzp53kGd-fsKQ][Проекционное Черчение]]
-- [[https://www.youtube.com/watch?v=Ecl0_ihlsz4][Черчение Три вида - YouTube]]
-- [[https://www.youtube.com/watch?v=6z3mkMiJF-E][Инженерная графика(проекции) - YouTube]]
-- [[https://www.youtube.com/watch?v=7bgepA4iTUY][Виды - YouTube]]
-- [[https://www.youtube.com/watch?v=BvLHk9mUw6g][Uses of Descriptive Geometry in Mathematics : Math Skills - YouTube]]
-- [[https://www.youtube.com/watch?v=YWwCLvA7_FA][Видеоуроки по КОМПАС 3D. Урок 5 Как построить по двум видам третий и ребро жесткости в Компасе - YouTube]]
-- [[https://www.youtube.com/watch?v=bk2E8P33Ztc][Third Angle Projection Vs First Angle Projection 3D animation - YouTube]]
-- [[https://www.youtube.com/watch?v=JGusKzEn8Gk][Orthographic Projection Drawing Tutorial | Orthographic Projection in Engineering Drawing - YouTube]]
-- [[https://www.youtube.com/watch?v=NEKJ9S28Fh8][isometric view created from orthographic views - YouTube]]
-- [[https://www.youtube.com/watch?v=1Hm5Zyjmjac][Intro to Mechanical Engineering Drawing - YouTube]]
-- [[https://www.youtube.com/watch?v=a2TolF5wRj4][Engineering Standards - YouTube]]
-- [[https://www.youtube.com/watch?v=5Dgd7jiT00w][Draw the missing orthogonal views - YouTube]]
-- [[https://www.youtube.com/watch?v=KVAKPtKhFmI&feature=youtu.be][Corrected orthogonal drwg 3 - YouTube]]
-- [[https://www.youtube.com/watch?v=Sw5O2bbQAu8][missing view prob - YouTube]]
-- [[https://www.youtube.com/watch?v=OHkNObinlpM][How to Draw an object with Orthographic Projection Part 1 - YouTube]]
-- [[https://www.youtube.com/watch?v=GcZjSYYuuYg][Axonometric Projection: Explained - YouTube]]
-- [[https://www.youtube.com/watch?v=VFDIg7otgIg][Axonometric diagrams - Architecture Daily Sketches - YouTube]]
-- [[https://www.youtube.com/watch?v=xOV2iPSiOZA&list=PLEaGhecvxyPdnCIlAwspEGPW9iCRyBgxF&index=78][What is Isometric Sketching? | Design Squad - YouTube]]
-***** Playlists
-- [[https://www.youtube.com/playlist?list=PLEaGhecvxyPdnCIlAwspEGPW9iCRyBgxF][Popular Videos - Isometric projection - YouTube]]
-***** [[https://vk.com/badya_channel][Badya Channel]]
-- http://badyaengi.blogspot.ru/
-**** Сайты
-***** [[http://www.2d-3d.ru/][Чертежи 3D модели 2D-3D.RU. Готовые проекты.]]
+*** Компьютерная графика
+- [[http://www.2d-3d.ru/][Чертежи 3D модели 2D-3D.RU. Готовые проекты.]]
 - [[http://www.2d-3d.ru/gosti/][ГОСТы - правила выполнения чертежей, скачать]]
 - [[http://www.2d-3d.ru/gosti/82-gost-2.305-68-izobrazhenija-vidy.html][ГОСТ 2.305-68 Изображения - виды, разрезы, сечения » Чертежи 3D модели 2D-3D.RU. Готовые проекты.]]
 
 * Справки
-- [[https://yadi.sk/d/QJoB79mivT4Ne][Yandex Disk]]
-** Справка вызова
+- [[https://yadi.sk/d/QJoB79mivT4Ne][Хранилище справок - Yandex Disk]]
 
+** Справка вызова
 Для оформления *справки вызова* от ВУЗа для работы,
 необходимо *до ноября* принести заявку в деканат (аудиториях 3309).
 
 ** Общежитие
-
 Если нужно общежитие на время сессии, надо заполнить бланк *до декабря*.
 
 ** Студенческий билет
-
 Донести фотографии для студенческого.
 Всего нужно сдать 4 фотографии.
 Работают с 13:00 до 19:00.
@@ -357,7 +229,6 @@ CLOSED: [2016-12-06 Tue 23:00] DEADLINE: <2016-10-31 Mon>
 Студенческий билет будет готов через две недели, после подачи оставшихся фото.
 
 ** Зачетная книжка
-
 Будет выдана перед сессией.
 
 * Контакты
