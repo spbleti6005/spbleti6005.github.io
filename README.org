@@ -307,40 +307,31 @@ Click here to Reply
 Найти его можно по субботам с 10 до 12 на кафедре физвоспитания
 (кажется, это в корпусе C).
 * Помощники
-
 ** Официальные сайты ВУЗА
-
 - [[http://www.eltech.ru/][Главный сайт]]
 - [[http://eplace.eltech.ru/][Портал совместного обучения]]
 - [[http://library.eltech.ru/][Электронная библиотека]]
 - http://zao.vm-2.spb.ru/home/informatika-i-vycislitelnaa-tehnika
-
 ** Сайты
 Полезные ресурсы для решения всякого.
-
 *** Общие
 - [[https://whataweek.github.io/][Какая сейчас неделя? Четная или нечетная?]]
 - [[http://interneturok.ru/][interneturok.ru | Видеоуроки по школьной программе]]
-
 *** Калькуляторы
 - [[http://www.wolframalpha.com/][Wolfram|Alpha: Computational Knowledge Engine]]     
 - [[https://calc.loviotvet.ru/][calc.loviotvet.ru | Онлайн программа для решения примеров и уравнений]]
 - [[http://mathprofi.ru/index.html][mathprofi.ru | Высшая математика – просто и доступно]]
 - [[http://www.webmath.ru/poleznoe.php][www.webmath.ru | Портал по высшей математике]]
-
 *** Антиплагиаты
 - https://text.ru/antiplagiat
 - https://www.antiplagiat.ru
-
 *** Иностранный язык
 - [[http://www.gingersoftware.com/grammarcheck][www.gingersoftware.com | grammarcheck]]
 - [[http://www.gingersoftware.com/products/sentence-rephraser][www.gingersoftware.com | sentence-rephraser]]
-
 *** Компьютерная графика
 - [[http://www.2d-3d.ru/][Чертежи 3D модели 2D-3D.RU. Готовые проекты.]]
 - [[http://www.2d-3d.ru/gosti/][ГОСТы - правила выполнения чертежей, скачать]]
 - [[http://www.2d-3d.ru/gosti/82-gost-2.305-68-izobrazhenija-vidy.html][ГОСТ 2.305-68 Изображения - виды, разрезы, сечения » Чертежи 3D модели 2D-3D.RU. Готовые проекты.]]
-
 * Справки
 - [[https://yadi.sk/d/QJoB79mivT4Ne][Хранилище справок - Yandex Disk]]
 ** Справка вызова
