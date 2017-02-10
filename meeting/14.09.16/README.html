@@ -1,0 +1,1293 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+<head>
+<!-- 2017-02-10 Fri 11:55 -->
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Записи с первой заочной встречи</title>
+<meta name="generator" content="Org mode" />
+<meta name="author" content="Oleg Pykhalov" />
+<style type="text/css">
+ <!--/*--><![CDATA[/*><!--*/
+  .title  { text-align: center;
+             margin-bottom: .2em; }
+  .subtitle { text-align: center;
+              font-size: medium;
+              font-weight: bold;
+              margin-top:0; }
+  .todo   { font-family: monospace; color: red; }
+  .done   { font-family: monospace; color: green; }
+  .priority { font-family: monospace; color: orange; }
+  .tag    { background-color: #eee; font-family: monospace;
+            padding: 2px; font-size: 80%; font-weight: normal; }
+  .timestamp { color: #bebebe; }
+  .timestamp-kwd { color: #5f9ea0; }
+  .org-right  { margin-left: auto; margin-right: 0px;  text-align: right; }
+  .org-left   { margin-left: 0px;  margin-right: auto; text-align: left; }
+  .org-center { margin-left: auto; margin-right: auto; text-align: center; }
+  .underline { text-decoration: underline; }
+  #postamble p, #preamble p { font-size: 90%; margin: .2em; }
+  p.verse { margin-left: 3%; }
+  pre {
+    border: 1px solid #ccc;
+    box-shadow: 3px 3px 3px #eee;
+    padding: 8pt;
+    font-family: monospace;
+    overflow: auto;
+    margin: 1.2em;
+  }
+  pre.src {
+    position: relative;
+    overflow: visible;
+    padding-top: 1.2em;
+  }
+  pre.src:before {
+    display: none;
+    position: absolute;
+    background-color: white;
+    top: -10px;
+    right: 10px;
+    padding: 3px;
+    border: 1px solid black;
+  }
+  pre.src:hover:before { display: inline;}
+  /* Languages per Org manual */
+  pre.src-asymptote:before { content: 'Asymptote'; }
+  pre.src-awk:before { content: 'Awk'; }
+  pre.src-C:before { content: 'C'; }
+  /* pre.src-C++ doesn't work in CSS */
+  pre.src-clojure:before { content: 'Clojure'; }
+  pre.src-css:before { content: 'CSS'; }
+  pre.src-D:before { content: 'D'; }
+  pre.src-ditaa:before { content: 'ditaa'; }
+  pre.src-dot:before { content: 'Graphviz'; }
+  pre.src-calc:before { content: 'Emacs Calc'; }
+  pre.src-emacs-lisp:before { content: 'Emacs Lisp'; }
+  pre.src-fortran:before { content: 'Fortran'; }
+  pre.src-gnuplot:before { content: 'gnuplot'; }
+  pre.src-haskell:before { content: 'Haskell'; }
+  pre.src-java:before { content: 'Java'; }
+  pre.src-js:before { content: 'Javascript'; }
+  pre.src-latex:before { content: 'LaTeX'; }
+  pre.src-ledger:before { content: 'Ledger'; }
+  pre.src-lisp:before { content: 'Lisp'; }
+  pre.src-lilypond:before { content: 'Lilypond'; }
+  pre.src-lua:before { content: 'Lua'; }
+  pre.src-matlab:before { content: 'MATLAB'; }
+  pre.src-mscgen:before { content: 'Mscgen'; }
+  pre.src-ocaml:before { content: 'Objective Caml'; }
+  pre.src-octave:before { content: 'Octave'; }
+  pre.src-org:before { content: 'Org mode'; }
+  pre.src-oz:before { content: 'OZ'; }
+  pre.src-plantuml:before { content: 'Plantuml'; }
+  pre.src-processing:before { content: 'Processing.js'; }
+  pre.src-python:before { content: 'Python'; }
+  pre.src-R:before { content: 'R'; }
+  pre.src-ruby:before { content: 'Ruby'; }
+  pre.src-sass:before { content: 'Sass'; }
+  pre.src-scheme:before { content: 'Scheme'; }
+  pre.src-screen:before { content: 'Gnu Screen'; }
+  pre.src-sed:before { content: 'Sed'; }
+  pre.src-sh:before { content: 'shell'; }
+  pre.src-sql:before { content: 'SQL'; }
+  pre.src-sqlite:before { content: 'SQLite'; }
+  /* additional languages in org.el's org-babel-load-languages alist */
+  pre.src-forth:before { content: 'Forth'; }
+  pre.src-io:before { content: 'IO'; }
+  pre.src-J:before { content: 'J'; }
+  pre.src-makefile:before { content: 'Makefile'; }
+  pre.src-maxima:before { content: 'Maxima'; }
+  pre.src-perl:before { content: 'Perl'; }
+  pre.src-picolisp:before { content: 'Pico Lisp'; }
+  pre.src-scala:before { content: 'Scala'; }
+  pre.src-shell:before { content: 'Shell Script'; }
+  pre.src-ebnf2ps:before { content: 'ebfn2ps'; }
+  /* additional language identifiers per "defun org-babel-execute"
+       in ob-*.el */
+  pre.src-cpp:before  { content: 'C++'; }
+  pre.src-abc:before  { content: 'ABC'; }
+  pre.src-coq:before  { content: 'Coq'; }
+  pre.src-groovy:before  { content: 'Groovy'; }
+  /* additional language identifiers from org-babel-shell-names in
+     ob-shell.el: ob-shell is the only babel language using a lambda to put
+     the execution function name together. */
+  pre.src-bash:before  { content: 'bash'; }
+  pre.src-csh:before  { content: 'csh'; }
+  pre.src-ash:before  { content: 'ash'; }
+  pre.src-dash:before  { content: 'dash'; }
+  pre.src-ksh:before  { content: 'ksh'; }
+  pre.src-mksh:before  { content: 'mksh'; }
+  pre.src-posh:before  { content: 'posh'; }
+  /* Additional Emacs modes also supported by the LaTeX listings package */
+  pre.src-ada:before { content: 'Ada'; }
+  pre.src-asm:before { content: 'Assembler'; }
+  pre.src-caml:before { content: 'Caml'; }
+  pre.src-delphi:before { content: 'Delphi'; }
+  pre.src-html:before { content: 'HTML'; }
+  pre.src-idl:before { content: 'IDL'; }
+  pre.src-mercury:before { content: 'Mercury'; }
+  pre.src-metapost:before { content: 'MetaPost'; }
+  pre.src-modula-2:before { content: 'Modula-2'; }
+  pre.src-pascal:before { content: 'Pascal'; }
+  pre.src-ps:before { content: 'PostScript'; }
+  pre.src-prolog:before { content: 'Prolog'; }
+  pre.src-simula:before { content: 'Simula'; }
+  pre.src-tcl:before { content: 'tcl'; }
+  pre.src-tex:before { content: 'TeX'; }
+  pre.src-plain-tex:before { content: 'Plain TeX'; }
+  pre.src-verilog:before { content: 'Verilog'; }
+  pre.src-vhdl:before { content: 'VHDL'; }
+  pre.src-xml:before { content: 'XML'; }
+  pre.src-nxml:before { content: 'XML'; }
+  /* add a generic configuration mode; LaTeX export needs an additional
+     (add-to-list 'org-latex-listings-langs '(conf " ")) in .emacs */
+  pre.src-conf:before { content: 'Configuration File'; }
+
+  table { border-collapse:collapse; }
+  caption.t-above { caption-side: top; }
+  caption.t-bottom { caption-side: bottom; }
+  td, th { vertical-align:top;  }
+  th.org-right  { text-align: center;  }
+  th.org-left   { text-align: center;   }
+  th.org-center { text-align: center; }
+  td.org-right  { text-align: right;  }
+  td.org-left   { text-align: left;   }
+  td.org-center { text-align: center; }
+  dt { font-weight: bold; }
+  .footpara { display: inline; }
+  .footdef  { margin-bottom: 1em; }
+  .figure { padding: 1em; }
+  .figure p { text-align: center; }
+  .inlinetask {
+    padding: 10px;
+    border: 2px solid gray;
+    margin: 10px;
+    background: #ffffcc;
+  }
+  #org-div-home-and-up
+   { text-align: right; font-size: 70%; white-space: nowrap; }
+  textarea { overflow-x: auto; }
+  .linenr { font-size: smaller }
+  .code-highlighted { background-color: #ffff00; }
+  .org-info-js_info-navigation { border-style: none; }
+  #org-info-js_console-label
+    { font-size: 10px; font-weight: bold; white-space: nowrap; }
+  .org-info-js_search-highlight
+    { background-color: #ffff00; color: #000000; font-weight: bold; }
+  .org-svg { width: 90%; }
+  /*]]>*/-->
+</style>
+<script type="text/javascript">
+/*
+@licstart  The following is the entire license notice for the
+JavaScript code in this tag.
+
+Copyright (C) 2012-2013 Free Software Foundation, Inc.
+
+The JavaScript code in this tag is free software: you can
+redistribute it and/or modify it under the terms of the GNU
+General Public License (GNU GPL) as published by the Free Software
+Foundation, either version 3 of the License, or (at your option)
+any later version.  The code is distributed WITHOUT ANY WARRANTY;
+without even the implied warranty of MERCHANTABILITY or FITNESS
+FOR A PARTICULAR PURPOSE.  See the GNU GPL for more details.
+
+As additional permission under GNU GPL version 3 section 7, you
+may distribute non-source (e.g., minimized or compacted) forms of
+that code without the copy of the GNU GPL normally required by
+section 4, provided you include this license notice and a URL
+through which recipients can access the Corresponding Source.
+
+
+@licend  The above is the entire license notice
+for the JavaScript code in this tag.
+*/
+<!--/*--><![CDATA[/*><!--*/
+ function CodeHighlightOn(elem, id)
+ {
+   var target = document.getElementById(id);
+   if(null != target) {
+     elem.cacheClassElem = elem.className;
+     elem.cacheClassTarget = target.className;
+     target.className = "code-highlighted";
+     elem.className   = "code-highlighted";
+   }
+ }
+ function CodeHighlightOff(elem, id)
+ {
+   var target = document.getElementById(id);
+   if(elem.cacheClassElem)
+     elem.className = elem.cacheClassElem;
+   if(elem.cacheClassTarget)
+     target.className = elem.cacheClassTarget;
+ }
+/*]]>*///-->
+</script>
+</head>
+<body>
+<div id="content">
+<h1 class="title">Записи с первой заочной встречи</h1>
+<div id="table-of-contents">
+<h2>Table of Contents</h2>
+<div id="text-table-of-contents">
+<ul>
+<li><a href="#orgf5f2ec0">1. Встречу начал</a></li>
+<li><a href="#org6a01fb1">2. Преподаватели</a>
+<ul>
+<li><a href="#org3d162d1">2.1. Иностранный язык (английский)</a>
+<ul>
+<li><a href="#org548ae37">2.1.1. Заметки</a></li>
+</ul>
+</li>
+<li><a href="#org8405c5c">2.2. Кафедра</a>
+<ul>
+<li><a href="#org0354eb0">2.2.1. Кабинет</a></li>
+<li><a href="#orgd2441c9">2.2.2. Расписание</a></li>
+<li><a href="#org9c15d33">2.2.3. Телефон</a></li>
+<li><a href="#org28a644f">2.2.4. Заметки</a></li>
+</ul>
+</li>
+<li><a href="#orge5f3fb4">2.3. Алгебра и геометрия</a>
+<ul>
+<li><a href="#org61a12d8">2.3.1. Преподаватель</a></li>
+<li><a href="#org41824a0">2.3.2. Консультация</a></li>
+<li><a href="#orgb928a06">2.3.3. Задания</a></li>
+</ul>
+</li>
+<li><a href="#org29b70e3">2.4. Курсы программирования</a>
+<ul>
+<li><a href="#org938349b">2.4.1. Преподаватель</a></li>
+<li><a href="#orgc916463">2.4.2. Материалы</a></li>
+<li><a href="#orgf7c7163">2.4.3. Консультации</a></li>
+<li><a href="#org673ed72">2.4.4. C++</a></li>
+</ul>
+</li>
+<li><a href="#org1dcb8c1">2.5. Инженерная компьютерная графика</a>
+<ul>
+<li><a href="#orgbb5ae59">2.5.1. Преподаватель</a></li>
+<li><a href="#org76ecb8c">2.5.2. Задания</a></li>
+<li><a href="#org7b613ac">2.5.3. Консультация</a></li>
+</ul>
+</li>
+<li><a href="#org38ce383">2.6. Преподаватель информатики и информационной технологии</a>
+<ul>
+<li><a href="#orgef69fa1">2.6.1. Авторизация</a></li>
+<li><a href="#org42d5e44">2.6.2. Информатика ОФ для неаудентифированных пользователей</a></li>
+<li><a href="#org07cb36e">2.6.3. Объявления</a></li>
+<li><a href="#org0da01e0">2.6.4. Пройти тесты до начала обучения</a></li>
+<li><a href="#orgc561b36">2.6.5. Внимание</a></li>
+</ul>
+</li>
+<li><a href="#orgbf0b7cb">2.7. Преподаватель программирование для группы 6091</a></li>
+<li><a href="#org1743ab9">2.8. Кафедра ИКГП (история)</a>
+<ul>
+<li><a href="#org302f66e">2.8.1. Телефон</a></li>
+<li><a href="#org44a446c">2.8.2. Контрольная работа</a></li>
+<li><a href="#org7c506f9">2.8.3. Темы</a></li>
+<li><a href="#org88240d0">2.8.4. Сроки</a></li>
+<li><a href="#orgda9cbfa">2.8.5. Письмо</a></li>
+</ul>
+</li>
+<li><a href="#org399495e">2.9. Преподаватель физической химии</a>
+<ul>
+<li><a href="#org90b1452">2.9.1. Темы</a></li>
+<li><a href="#org5ecf92d">2.9.2. Учебники</a></li>
+<li><a href="#org9f55e92">2.9.3. Задания</a></li>
+<li><a href="#orgfdce02a">2.9.4. Пособия</a></li>
+<li><a href="#org1b16867">2.9.5. Результаты заданий</a></li>
+<li><a href="#org499ee19">2.9.6. Контакты</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><a href="#orgae01faa">3. Деканат</a>
+<ul>
+<li><a href="#org774d1b5">3.1. Адрес</a></li>
+<li><a href="#orgd2c2869">3.2. Расписание</a></li>
+<li><a href="#orge2460eb">3.3. Секретари</a>
+<ul>
+<li><a href="#org789587a">3.3.1. Расписание</a></li>
+</ul>
+</li>
+<li><a href="#orga9f9762">3.4. Телефоны деканата</a></li>
+<li><a href="#orgf38fa95">3.5. Адрес</a></li>
+<li><a href="#org025534d">3.6. email</a></li>
+<li><a href="#orga3932a9">3.7. Материал</a></li>
+<li><a href="#org7f29f90">3.8. Библиотека</a>
+<ul>
+<li><a href="#org31239e8">3.8.1. Доступ</a></li>
+<li><a href="#org9a627e5">3.8.2. Требования:</a></li>
+<li><a href="#org1f8473f">3.8.3. Место</a></li>
+</ul>
+</li>
+<li><a href="#org15cdbe5">3.9. Телефон</a></li>
+<li><a href="#org246be70">3.10. Таблица предметов</a></li>
+</ul>
+</li>
+<li><a href="#orgfd644be">4. Заметки</a>
+<ul>
+<li><a href="#org367a03f">4.1. Документы</a></li>
+</ul>
+</li>
+<li><a href="#org8f08d93">5. Вопросы</a></li>
+<li><a href="#org337e52f">6. Фотографии</a></li>
+</ul>
+</div>
+</div>
+<ul class="org-ul">
+<li><a href="http://www.eltech.ru/">http://www.eltech.ru/</a></li>
+</ul>
+
+<div id="outline-container-orgf5f2ec0" class="outline-2">
+<h2 id="orgf5f2ec0"><span class="section-number-2">1</span> Встречу начал</h2>
+<div class="outline-text-2" id="text-1">
+<p>
+Заместитель деканата открытого факультета по заочной форме обучения 
+Шануренко Александр Константинович
+</p>
+</div>
+</div>
+
+<div id="outline-container-org6a01fb1" class="outline-2">
+<h2 id="org6a01fb1"><span class="section-number-2">2</span> Преподаватели</h2>
+<div class="outline-text-2" id="text-2">
+<p>
+<a href="mailto:zaochnikleti@mail.ru">zaochnikleti@mail.ru</a>
+</p>
+
+<p>
+Пароль: popovizobrelradio (попов изобрел радио)
+</p>
+</div>
+
+<div id="outline-container-org3d162d1" class="outline-3">
+<h3 id="org3d162d1"><span class="section-number-3">2.1</span> Иностранный язык (английский)</h3>
+<div class="outline-text-3" id="text-2-1">
+<p>
+Елена Ивановна Беседина
+<a href="mailto:elivbesedina@mail.ru">elivbesedina@mail.ru</a>
+</p>
+</div>
+
+<div id="outline-container-org548ae37" class="outline-4">
+<h4 id="org548ae37"><span class="section-number-4">2.1.1</span> Заметки</h4>
+<div class="outline-text-4" id="text-2-1-1">
+<p>
+Сделать задания до 25.10.16
+</p>
+</div>
+</div>
+</div>
+
+<div id="outline-container-org8405c5c" class="outline-3">
+<h3 id="org8405c5c"><span class="section-number-3">2.2</span> Кафедра</h3>
+<div class="outline-text-3" id="text-2-2">
+</div><div id="outline-container-org0354eb0" class="outline-4">
+<h4 id="org0354eb0"><span class="section-number-4">2.2.1</span> Кабинет</h4>
+<div class="outline-text-4" id="text-2-2-1">
+<p>
+3319
+</p>
+</div>
+</div>
+
+<div id="outline-container-orgd2441c9" class="outline-4">
+<h4 id="orgd2441c9"><span class="section-number-4">2.2.2</span> Расписание</h4>
+<div class="outline-text-4" id="text-2-2-2">
+<p>
+Закрывается в 17:00
+</p>
+</div>
+</div>
+
+<div id="outline-container-org9c15d33" class="outline-4">
+<h4 id="org9c15d33"><span class="section-number-4">2.2.3</span> Телефон</h4>
+<div class="outline-text-4" id="text-2-2-3">
+<p>
+356-45-47
+</p>
+</div>
+</div>
+
+<div id="outline-container-org28a644f" class="outline-4">
+<h4 id="org28a644f"><span class="section-number-4">2.2.4</span> Заметки</h4>
+<div class="outline-text-4" id="text-2-2-4">
+<p>
+Сделать тест до 25.09.15.
+</p>
+</div>
+</div>
+</div>
+
+<div id="outline-container-orge5f3fb4" class="outline-3">
+<h3 id="orge5f3fb4"><span class="section-number-3">2.3</span> Алгебра и геометрия</h3>
+<div class="outline-text-3" id="text-2-3">
+</div><div id="outline-container-org61a12d8" class="outline-4">
+<h4 id="org61a12d8"><span class="section-number-4">2.3.1</span> Преподаватель</h4>
+<div class="outline-text-4" id="text-2-3-1">
+<p>
+Абрамова Мария Николаевна
+<a href="mailto:matemleti@gmail.com">matemleti@gmail</a>
+</p>
+</div>
+</div>
+
+<div id="outline-container-org41824a0" class="outline-4">
+<h4 id="org41824a0"><span class="section-number-4">2.3.2</span> Консультация</h4>
+<div class="outline-text-4" id="text-2-3-2">
+</div><ol class="org-ol"><li><a id="org408ba32"></a>Абрамова Мария Николаевна<br  /><ol class="org-ol"><li><a id="orgcad85cf"></a>Место<br  /><div class="outline-text-6" id="text-2-3-2-1-1">
+<p>
+Кафедра "ВМ-2" в аудидитории 3312 (рядом с деканатом).
+</p>
+</div></li>
+
+<li><a id="org7e5562d"></a>Время<br  /><div class="outline-text-6" id="text-2-3-2-1-2">
+<p>
+Среда с 14:00 до 19:00.
+</p>
+
+<p>
+Спросить у лаборантов.
+</p>
+</div></li></ol></li>
+
+<li><a id="orgfb98a22"></a>Казакевич Виктория Григорьевна<br  /><ol class="org-ol"><li><a id="org597e488"></a>Время<br  /><div class="outline-text-6" id="text-2-3-2-2-1">
+<ul class="org-ul">
+<li>вторник</li>
+<li>четверг</li>
+</ul>
+</div></li></ol></li></ol>
+</div>
+
+<div id="outline-container-orgb928a06" class="outline-4">
+<h4 id="orgb928a06"><span class="section-number-4">2.3.3</span> Задания</h4>
+<div class="outline-text-4" id="text-2-3-3">
+</div><ol class="org-ol"><li><a id="org89cab06"></a>Материалы<br  /><ol class="org-ol"><li><a id="org8f2fe2f"></a>Сайт<br  /><div class="outline-text-6" id="text-2-3-3-1-1">
+<p>
+<a href="http://zao.vm-2.spb.ru/">http://zao.vm-2.spb.ru/</a> 1 курс -&gt; 1 семестр
+</p>
+</div></li>
+
+<li><a id="org5dca937"></a>Количество<br  /><div class="outline-text-6" id="text-2-3-3-1-2">
+<p>
+Две контрольные работы в соответствии с сроками.
+</p>
+</div></li>
+
+<li><a id="org386b064"></a>Вариант<br  /><div class="outline-text-6" id="text-2-3-3-1-3">
+<p>
+Вариант из зачетной книжки согласно четности последней цифры.
+</p>
+</div></li></ol></li>
+
+<li><a id="org5e5310d"></a>Методички<br  /><div class="outline-text-5" id="text-2-3-3-2">
+<p>
+?
+</p>
+</div></li>
+
+<li><a id="orgc5d7c61"></a>Результаты<br  /><div class="outline-text-5" id="text-2-3-3-3">
+<p>
+Два варианта:
+</p>
+<ul class="org-ul">
+<li>Присылать на почту.</li>
+<li>Принести в аудиторию 3312, положить в ящик с контрольными работами.</li>
+</ul>
+</div></li>
+
+<li><a id="org4e4f067"></a>Темы первого семестра<br  /><div class="outline-text-5" id="text-2-3-3-4">
+<ul class="org-ul">
+<li>комплексные числа</li>
+<li>матрицы</li>
+<li>векторная алгебра</li>
+<li>математический анализ</li>
+</ul>
+</div></li>
+
+<li><a id="org5250b2d"></a>Количество лекций<br  /><div class="outline-text-5" id="text-2-3-3-5">
+<p>
+10-12 лекций всего.
+</p>
+</div></li>
+
+<li><a id="org6754b1b"></a>Тест и экзамен<br  /><div class="outline-text-5" id="text-2-3-3-6">
+<p>
+Тест из 5 задач в аудитории лично.
+</p>
+
+<p>
+Допуск на экзамен после результатов теста.
+</p>
+
+<p>
+4 задачи практические и 1 вопрос по теории.
+</p>
+
+<p>
+Сдать контрольные до факта начала сессии.
+</p>
+</div></li></ol>
+</div>
+</div>
+
+<div id="outline-container-org29b70e3" class="outline-3">
+<h3 id="org29b70e3"><span class="section-number-3">2.4</span> Курсы программирования</h3>
+<div class="outline-text-3" id="text-2-4">
+</div><div id="outline-container-org938349b" class="outline-4">
+<h4 id="org938349b"><span class="section-number-4">2.4.1</span> Преподаватель</h4>
+<div class="outline-text-4" id="text-2-4-1">
+<p>
+Владимир Иванович Анисимов
+</p>
+
+<p>
+<a href="mailto:vanisimov2005@mail.ru">vanisimov2005@mail.ru</a>
+</p>
+
+<p>
+<a href="http://vianisimov2005.narod.ru/">http://vianisimov2005.narod.ru/</a>
+</p>
+</div>
+</div>
+
+<div id="outline-container-orgc916463" class="outline-4">
+<h4 id="orgc916463"><span class="section-number-4">2.4.2</span> Материалы</h4>
+<div class="outline-text-4" id="text-2-4-2">
+<ul class="org-ul">
+<li>Раздаточные материалы 1.</li>
+<li>Раздаточные материалы 2.</li>
+<li>Курсовой проект находится в методических указаниях под номером "1".</li>
+</ul>
+</div>
+</div>
+
+<div id="outline-container-orgf7c7163" class="outline-4">
+<h4 id="orgf7c7163"><span class="section-number-4">2.4.3</span> Консультации</h4>
+<div class="outline-text-4" id="text-2-4-3">
+<ul class="org-ul">
+<li>Занятия в 11:56.</li>
+<li>Первая лекция в 12:44.</li>
+</ul>
+</div>
+</div>
+
+<div id="outline-container-org673ed72" class="outline-4">
+<h4 id="org673ed72"><span class="section-number-4">2.4.4</span> C++</h4>
+<div class="outline-text-4" id="text-2-4-4">
+</div><ol class="org-ol"><li><a id="orgb4765be"></a>Темы<br  /><div class="outline-text-5" id="text-2-4-4-1">
+<ul class="org-ul">
+<li>Операторы.</li>
+<li>Основы алгоритмизации.</li>
+</ul>
+</div></li></ol>
+</div>
+</div>
+
+<div id="outline-container-org1dcb8c1" class="outline-3">
+<h3 id="org1dcb8c1"><span class="section-number-3">2.5</span> Инженерная компьютерная графика</h3>
+<div class="outline-text-3" id="text-2-5">
+</div><div id="outline-container-orgbb5ae59" class="outline-4">
+<h4 id="orgbb5ae59"><span class="section-number-4">2.5.1</span> Преподаватель</h4>
+<div class="outline-text-4" id="text-2-5-1">
+<p>
+Владимир Николаевич Вересов
+</p>
+
+<p>
+<a href="mailto:vnveresov@etu.ru">vnveresov@etu.ru</a>
+</p>
+</div>
+</div>
+
+<div id="outline-container-org76ecb8c" class="outline-4">
+<h4 id="org76ecb8c"><span class="section-number-4">2.5.2</span> Задания</h4>
+<div class="outline-text-4" id="text-2-5-2">
+<p>
+<a href="http://www.eltech.ru/">http://www.eltech.ru/</a> -&gt; ФИБС -&gt; ПМИГ -&gt; читаемые дисциплины "Инженерная графика"
+</p>
+
+<p>
+<a href="http://www.eltech.ru/ru/fakultety/fakultet-informacionno-izmeritelnyh-i-biotehnicheskih-sistem/sostav-fakulteta/kafedra-prikladnoy-mehaniki-i-inzhenernoy-grafiki/chitaemye-discipliny/inzhenernaya-grafika">Ссылка на варианты</a>
+</p>
+</div>
+
+<ol class="org-ol"><li><a id="org41bbbc2"></a>Варианты<br  /><div class="outline-text-5" id="text-2-5-2-1">
+<p>
+Варианты с 1 по 40.
+</p>
+</div></li>
+
+<li><a id="org0b9aa9a"></a>Программа для выполнения заданий<br  /><div class="outline-text-5" id="text-2-5-2-2">
+<p>
+Графический процессор АСКОН "Компас".
+</p>
+</div></li>
+
+<li><a id="org762a31c"></a>Рекомендованная литература<br  /><div class="outline-text-5" id="text-2-5-2-3">
+<p>
+Большаков В.П.
+Инженерная и компьютерная графика
+</p>
+
+<p>
+Спб.Bhv.2004
+</p>
+</div></li>
+
+<li><a id="org612f229"></a>Результаты<br  /><div class="outline-text-5" id="text-2-5-2-4">
+<p>
+Сдать 8 файлов к концу октября.
+</p>
+</div></li>
+
+<li><a id="org93ad58a"></a>Порядок сдачи<br  /><div class="outline-text-5" id="text-2-5-2-5">
+<ol class="org-ol">
+<li>Отправить задание по email.</li>
+<li>Номер группы, свою фамилия, номер варианта.</li>
+</ol>
+
+<p>
+Примеры можно посмотреть на "доске факультета".
+</p>
+
+<p>
+Можно по желанию приходить на консультации.
+</p>
+
+<p>
+3 контрольные работы в январе после экзамена.
+</p>
+
+<p>
+Содержимое билетов при сдаче курсовой работы.
+</p>
+</div></li></ol>
+</div>
+
+<div id="outline-container-org7b613ac" class="outline-4">
+<h4 id="org7b613ac"><span class="section-number-4">2.5.3</span> Консультация</h4>
+<div class="outline-text-4" id="text-2-5-3">
+</div><ol class="org-ol"><li><a id="orga42726a"></a>Расписание<br  /><div class="outline-text-5" id="text-2-5-3-1">
+<p>
+Среда с 18:00
+</p>
+</div></li>
+
+<li><a id="org37db473"></a>Аудитория<br  /><div class="outline-text-5" id="text-2-5-3-2">
+<p>
+5576
+</p>
+</div></li></ol>
+</div>
+</div>
+
+<div id="outline-container-org38ce383" class="outline-3">
+<h3 id="org38ce383"><span class="section-number-3">2.6</span> Преподаватель информатики и информационной технологии</h3>
+<div class="outline-text-3" id="text-2-6">
+</div><div id="outline-container-orgef69fa1" class="outline-4">
+<h4 id="orgef69fa1"><span class="section-number-4">2.6.1</span> Авторизация</h4>
+<div class="outline-text-4" id="text-2-6-1">
+<p>
+До начала семестра будут выданы карточки с логином и паролем.
+</p>
+
+<p>
+<a href="http://eplace.eltech.ru/lotus/quickr/">http://eplace.eltech.ru/lotus/quickr/</a>
+</p>
+</div>
+</div>
+
+<div id="outline-container-org42d5e44" class="outline-4">
+<h4 id="org42d5e44"><span class="section-number-4">2.6.2</span> Информатика ОФ для неаудентифированных пользователей</h4>
+<div class="outline-text-4" id="text-2-6-2">
+<p>
+Контрольные работы в <b>.doc</b> файлах
+</p>
+
+<p>
+Сайт -&gt; раздел библиотека -&gt; раздел первый семестр -&gt; курсы лекций и контрольные работы.
+</p>
+
+<p>
+Тем у кого информатика, только одну контрольную работу, которая сдается на первой лекции в январе.
+</p>
+
+<p>
+Тем у кого информационные технологии, две контрольные любого варианта по желанию.
+</p>
+
+<p>
+Ближе к ноябрю нужно пройти "входной тест удаленно".
+</p>
+</div>
+</div>
+
+<div id="outline-container-org07cb36e" class="outline-4">
+<h4 id="org07cb36e"><span class="section-number-4">2.6.3</span> Объявления</h4>
+<div class="outline-text-4" id="text-2-6-3">
+<p>
+Раздел объявления на сайте.
+</p>
+
+<ol class="org-ol">
+<li>Когда вы получаете доступ к тесту.</li>
+<li>Последователь действий.</li>
+</ol>
+</div>
+</div>
+
+<div id="outline-container-org0da01e0" class="outline-4">
+<h4 id="org0da01e0"><span class="section-number-4">2.6.4</span> Пройти тесты до начала обучения</h4>
+<div class="outline-text-4" id="text-2-6-4">
+<p>
+Если мало балов по результатам тестов, то на результат это не влияет.
+</p>
+
+<p>
+Одна попытка удаленно.
+</p>
+</div>
+</div>
+
+<div id="outline-container-orgc561b36" class="outline-4">
+<h4 id="orgc561b36"><span class="section-number-4">2.6.5</span> Внимание</h4>
+<div class="outline-text-4" id="text-2-6-5">
+<p>
+Работать с автономного устройства, так как результаты не сохраняются при потере соединения.
+</p>
+</div>
+</div>
+</div>
+
+<div id="outline-container-orgbf0b7cb" class="outline-3">
+<h3 id="orgbf0b7cb"><span class="section-number-3">2.7</span> Преподаватель программирование для группы 6091</h3>
+<div class="outline-text-3" id="text-2-7">
+<p>
+<a href="mailto:s_v_vlasenko@mail.ru">s<sub>v</sub><sub>vlasenko</sub>@mail.ru</a>
+</p>
+
+<p>
+8-921-302-83-91
+</p>
+</div>
+</div>
+
+<div id="outline-container-org1743ab9" class="outline-3">
+<h3 id="org1743ab9"><span class="section-number-3">2.8</span> Кафедра ИКГП (история)</h3>
+<div class="outline-text-3" id="text-2-8">
+<p>
+В течении семестра самостоятельные работы с вопросами.
+</p>
+
+<p>
+Доступ к экзамену в январе.
+</p>
+
+<p>
+<a href="mailto:ikgp_etu@mail.ru">ikgp<sub>etu</sub>@mail.ru</a>
+</p>
+
+<p>
+ИКГБ 5323 полный набор материала для истории по заочной.
+</p>
+</div>
+
+<div id="outline-container-org302f66e" class="outline-4">
+<h4 id="org302f66e"><span class="section-number-4">2.8.1</span> Телефон</h4>
+<div class="outline-text-4" id="text-2-8-1">
+<p>
+234-67-67
+</p>
+</div>
+</div>
+
+<div id="outline-container-org44a446c" class="outline-4">
+<h4 id="org44a446c"><span class="section-number-4">2.8.2</span> Контрольная работа</h4>
+<div class="outline-text-4" id="text-2-8-2">
+<p>
+2 варианта в зависимости от четности последней цифры студенческого билета.
+</p>
+
+<p>
+3 блока по 3 вопроса.
+</p>
+</div>
+
+<ol class="org-ol"><li><a id="orgba0a47c"></a>Проверка<br  /><div class="outline-text-5" id="text-2-8-2-1">
+<p>
+<a href="https://www.antiplagiat.ru/">Антиплагиат.ру</a>
+</p>
+
+<p>
+Допускается совпадение около половины.
+</p>
+</div></li>
+
+<li><a id="org0020095"></a>Размеры<br  /><div class="outline-text-5" id="text-2-8-2-2">
+<p>
+10000-20000 знаков (10 листов) в общем на 3 вопроса.
+</p>
+</div>
+
+<ol class="org-ol"><li><a id="orgc3b01f3"></a>Шрифт<br  /><div class="outline-text-6" id="text-2-8-2-2-1">
+<p>
+14 размер TimesNewRoman
+</p>
+</div></li></ol></li></ol>
+</div>
+
+<div id="outline-container-org7c506f9" class="outline-4">
+<h4 id="org7c506f9"><span class="section-number-4">2.8.3</span> Темы</h4>
+<div class="outline-text-4" id="text-2-8-3">
+<ul class="org-ul">
+<li>Киевская Русь.</li>
+<li>Московская Русь.</li>
+<li>Императорская Россия.</li>
+</ul>
+
+<p>
+Делать 3 вопроса из 13.
+</p>
+
+<p>
+До конца 19 века.
+</p>
+
+<p>
+На лекции в январе 20 век.
+</p>
+
+<p>
+На зачет вопросы по 20 веку.
+</p>
+</div>
+</div>
+
+<div id="outline-container-org88240d0" class="outline-4">
+<h4 id="org88240d0"><span class="section-number-4">2.8.4</span> Сроки</h4>
+<div class="outline-text-4" id="text-2-8-4">
+<p>
+Не позднее середины октября. Месяц на подготовку.
+</p>
+</div>
+
+<ol class="org-ol"><li><a id="org1c7b9b5"></a>Пересдача зачета<br  /><div class="outline-text-5" id="text-2-8-4-1">
+<p>
+На кафедру 5323
+</p>
+</div></li>
+
+<li><a id="org6ff1045"></a>Внимание<br  /><div class="outline-text-5" id="text-2-8-4-2">
+<p>
+На 1 семестре не чего не пересдается.
+</p>
+</div></li></ol>
+</div>
+
+<div id="outline-container-orgda9cbfa" class="outline-4">
+<h4 id="orgda9cbfa"><span class="section-number-4">2.8.5</span> Письмо</h4>
+<div class="outline-text-4" id="text-2-8-5">
+</div><ol class="org-ol"><li><a id="org52fddd1"></a>Тема<br  /><div class="outline-text-5" id="text-2-8-5-1">
+<p>
+Материалы заочников в формате <b>.doc</b>
+</p>
+</div></li>
+
+<li><a id="orgb7540bf"></a>Подпись<br  /><div class="outline-text-5" id="text-2-8-5-2">
+<p>
+Фамилия и номер группы
+</p>
+</div></li>
+
+<li><a id="orgda45f18"></a>Пример письма<br  /><div class="outline-text-5" id="text-2-8-5-3">
+<p>
+Иванов 6002
+</p>
+
+<p>
+Дмитрию Никитичу
+</p>
+</div></li></ol>
+</div>
+</div>
+
+<div id="outline-container-org399495e" class="outline-3">
+<h3 id="org399495e"><span class="section-number-3">2.9</span> Преподаватель физической химии</h3>
+<div class="outline-text-3" id="text-2-9">
+<p>
+Лекционный курс по химии.
+</p>
+
+<p>
+В конце экзамен.
+</p>
+</div>
+
+<div id="outline-container-org90b1452" class="outline-4">
+<h4 id="org90b1452"><span class="section-number-4">2.9.1</span> Темы</h4>
+<div class="outline-text-4" id="text-2-9-1">
+<ul class="org-ul">
+<li>Газовые законы</li>
+<li>Термодинамика</li>
+</ul>
+</div>
+</div>
+
+<div id="outline-container-org5ecf92d" class="outline-4">
+<h4 id="org5ecf92d"><span class="section-number-4">2.9.2</span> Учебники</h4>
+<div class="outline-text-4" id="text-2-9-2">
+</div><ol class="org-ol"><li><a id="orga083f41"></a>Авторы<br  /><div class="outline-text-5" id="text-2-9-2-1">
+<ul class="org-ul">
+<li>Глинки</li>
+<li>Някутин</li>
+</ul>
+
+<p>
+Необходимо сделать ряд индивидуальных задач выполнить дома в пособиях 2005 и 2001.
+</p>
+</div></li></ol>
+</div>
+
+<div id="outline-container-org9f55e92" class="outline-4">
+<h4 id="org9f55e92"><span class="section-number-4">2.9.3</span> Задания</h4>
+<div class="outline-text-4" id="text-2-9-3">
+</div><ol class="org-ol"><li><a id="orgf04999a"></a>2005<br  /><div class="outline-text-5" id="text-2-9-3-1">
+<p>
+Делать согласно разделам.
+</p>
+
+<p>
+30 вариантов.
+</p>
+</div></li>
+
+<li><a id="org02e1fb0"></a>2001<br  /><div class="outline-text-5" id="text-2-9-3-2">
+<p>
+Делать согласно табличке.
+</p>
+</div></li></ol>
+</div>
+
+<div id="outline-container-orgfdce02a" class="outline-4">
+<h4 id="orgfdce02a"><span class="section-number-4">2.9.4</span> Пособия</h4>
+<div class="outline-text-4" id="text-2-9-4">
+</div><ol class="org-ol"><li><a id="orgec1d925"></a>2001<br  /><div class="outline-text-5" id="text-2-9-4-1">
+<p>
+<a href="http://fx-leti.narod.ru/">http://fx-leti.narod.ru/</a>
+</p>
+
+<p>
+<a href="http://eplace.elthech.ru/">http://eplace.elthech.ru/</a>
+</p>
+</div></li></ol>
+</div>
+
+<div id="outline-container-org1b16867" class="outline-4">
+<h4 id="org1b16867"><span class="section-number-4">2.9.5</span> Результаты заданий</h4>
+<div class="outline-text-4" id="text-2-9-5">
+<p>
+До середины ноября по адресам:
+</p>
+
+<ul class="org-ul">
+<li><a href="mailto:bugrov.an@mail.ru">bugrov.an@mail.ru</a></li>
+<li><a href="mailto:alexander.n.bugrov@gmail.com">alexander.n.bugrov@gmail.com</a></li>
+</ul>
+</div>
+</div>
+
+<div id="outline-container-org499ee19" class="outline-4">
+<h4 id="org499ee19"><span class="section-number-4">2.9.6</span> Контакты</h4>
+<div class="outline-text-4" id="text-2-9-6">
+</div><ol class="org-ol"><li><a id="org98a2e98"></a>Расписание<br  /><div class="outline-text-5" id="text-2-9-6-1">
+<ul class="org-ul">
+<li>вторник с 08:00 до 12:00</li>
+<li>среда с 08:00 до 12:00</li>
+
+<li>с 09:00 до 12:00</li>
+<li>с 20:00 до 22:00</li>
+</ul>
+</div></li>
+
+<li><a id="org9118a3d"></a>Место<br  /><div class="outline-text-5" id="text-2-9-6-2">
+<p>
+Корпус 5 аудитория 5575
+</p>
+</div></li></ol>
+</div>
+</div>
+</div>
+
+<div id="outline-container-orgae01faa" class="outline-2">
+<h2 id="orgae01faa"><span class="section-number-2">3</span> Деканат</h2>
+<div class="outline-text-2" id="text-3">
+</div><div id="outline-container-org774d1b5" class="outline-3">
+<h3 id="org774d1b5"><span class="section-number-3">3.1</span> Адрес</h3>
+<div class="outline-text-3" id="text-3-1">
+<p>
+3 корпус, 3 этаж, аудитория 3309
+</p>
+</div>
+</div>
+
+<div id="outline-container-orgd2c2869" class="outline-3">
+<h3 id="orgd2c2869"><span class="section-number-3">3.2</span> Расписание</h3>
+<div class="outline-text-3" id="text-3-2">
+<ul class="org-ul">
+<li>понедельник и вторник с 17:00 до 19:00</li>
+<li>понедельник и четверг с 17:00 до 19:00</li>
+</ul>
+</div>
+</div>
+
+<div id="outline-container-orge2460eb" class="outline-3">
+<h3 id="orge2460eb"><span class="section-number-3">3.3</span> Секретари</h3>
+<div class="outline-text-3" id="text-3-3">
+<ul class="org-ul">
+<li>Гуком Юлия Васильевна</li>
+<li>?</li>
+</ul>
+</div>
+
+<div id="outline-container-org789587a" class="outline-4">
+<h4 id="org789587a"><span class="section-number-4">3.3.1</span> Расписание</h4>
+<div class="outline-text-4" id="text-3-3-1">
+<p>
+с 13:00 до 19:00
+</p>
+</div>
+</div>
+</div>
+
+<div id="outline-container-orga9f9762" class="outline-3">
+<h3 id="orga9f9762"><span class="section-number-3">3.4</span> Телефоны деканата</h3>
+<div class="outline-text-3" id="text-3-4">
+<ul class="org-ul">
+<li>234-39-37</li>
+<li>346-48-37</li>
+</ul>
+</div>
+</div>
+
+<div id="outline-container-orgf38fa95" class="outline-3">
+<h3 id="orgf38fa95"><span class="section-number-3">3.5</span> Адрес</h3>
+<div class="outline-text-3" id="text-3-5">
+<p>
+192-376 СПБ улица Профессора попова, дом 5, СБП-ГТУ Лэти открытый факультет (деканат) ПФ.
+</p>
+</div>
+</div>
+
+<div id="outline-container-org025534d" class="outline-3">
+<h3 id="org025534d"><span class="section-number-3">3.6</span> email</h3>
+<div class="outline-text-3" id="text-3-6">
+<p>
+<a href="mailto:dekanatof@yandex.ru">dekanatof@yandex.ru</a>
+</p>
+</div>
+</div>
+
+<div id="outline-container-orga3932a9" class="outline-3">
+<h3 id="orga3932a9"><span class="section-number-3">3.7</span> Материал</h3>
+<div class="outline-text-3" id="text-3-7">
+<p>
+Методический материал на сайте кафедры для заочной формы обучения.
+</p>
+</div>
+</div>
+
+<div id="outline-container-org7f29f90" class="outline-3">
+<h3 id="org7f29f90"><span class="section-number-3">3.8</span> Библиотека</h3>
+<div class="outline-text-3" id="text-3-8">
+</div><div id="outline-container-org31239e8" class="outline-4">
+<h4 id="org31239e8"><span class="section-number-4">3.8.1</span> Доступ</h4>
+<div class="outline-text-4" id="text-3-8-1">
+<p>
+Доступна после внесения в базу данных университета.
+</p>
+</div>
+</div>
+
+<div id="outline-container-org9a627e5" class="outline-4">
+<h4 id="org9a627e5"><span class="section-number-4">3.8.2</span> Требования:</h4>
+<div class="outline-text-4" id="text-3-8-2">
+<p>
+Читательский билет в отделе литературы.
+</p>
+</div>
+</div>
+
+<div id="outline-container-org1f8473f" class="outline-4">
+<h4 id="org1f8473f"><span class="section-number-4">3.8.3</span> Место</h4>
+<div class="outline-text-4" id="text-3-8-3">
+<p>
+1 корпус, 2 этаж, аудитория 1248.
+</p>
+</div>
+</div>
+</div>
+
+<div id="outline-container-org15cdbe5" class="outline-3">
+<h3 id="org15cdbe5"><span class="section-number-3">3.9</span> Телефон</h3>
+<div class="outline-text-3" id="text-3-9">
+<p>
+346-33-95
+</p>
+</div>
+</div>
+
+<div id="outline-container-org246be70" class="outline-3">
+<h3 id="org246be70"><span class="section-number-3">3.10</span> Таблица предметов</h3>
+<div class="outline-text-3" id="text-3-10">
+<table border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
+
+
+<colgroup>
+<col  class="org-left" />
+
+<col  class="org-left" />
+
+<col  class="org-left" />
+
+<col  class="org-left" />
+
+<col  class="org-left" />
+
+<col  class="org-left" />
+
+<col  class="org-left" />
+
+<col  class="org-left" />
+
+<col  class="org-left" />
+</colgroup>
+<thead>
+<tr>
+<th scope="col" class="org-left">&#xa0;</th>
+<th scope="col" class="org-left">Иностранный язык</th>
+<th scope="col" class="org-left">История</th>
+<th scope="col" class="org-left">Информатика и информационные технологии</th>
+<th scope="col" class="org-left">Алгебра</th>
+<th scope="col" class="org-left">Химия</th>
+<th scope="col" class="org-left">Инженерная и компьютерная графика</th>
+<th scope="col" class="org-left">Программирование</th>
+<th scope="col" class="org-left">Практика программирования</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="org-left">6002 Кафедра электронного приборостроения (ЭП)</td>
+<td class="org-left">+</td>
+<td class="org-left">+</td>
+<td class="org-left">+</td>
+<td class="org-left">+</td>
+<td class="org-left">+</td>
+<td class="org-left">+</td>
+<td class="org-left">-</td>
+<td class="org-left">-</td>
+</tr>
+
+<tr>
+<td class="org-left">6005 Вычислительная техника (ВТ)</td>
+<td class="org-left">+</td>
+<td class="org-left">+</td>
+<td class="org-left">+</td>
+<td class="org-left">+</td>
+<td class="org-left">-</td>
+<td class="org-left">+</td>
+<td class="org-left">+</td>
+<td class="org-left">+</td>
+</tr>
+
+<tr>
+<td class="org-left">6081 Кафедра биотехнических систем (БТС)</td>
+<td class="org-left">+</td>
+<td class="org-left">+</td>
+<td class="org-left">+</td>
+<td class="org-left">+</td>
+<td class="org-left">+</td>
+<td class="org-left">+</td>
+<td class="org-left">-</td>
+<td class="org-left">-</td>
+</tr>
+
+<tr>
+<td class="org-left">6091 Кафедра автоматики и процессов управления (АПУ)</td>
+<td class="org-left">+</td>
+<td class="org-left">+</td>
+<td class="org-left">+</td>
+<td class="org-left">+</td>
+<td class="org-left">+</td>
+<td class="org-left">+</td>
+<td class="org-left">+</td>
+<td class="org-left">-</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+</div>
+
+<div id="outline-container-orgfd644be" class="outline-2">
+<h2 id="orgfd644be"><span class="section-number-2">4</span> Заметки</h2>
+<div class="outline-text-2" id="text-4">
+<ul class="org-ul">
+<li>Возле деканата факультета расписание лекций по дисциплино.</li>
+<li>Оплата до 1 февраля.</li>
+</ul>
+</div>
+
+<div id="outline-container-org367a03f" class="outline-3">
+<h3 id="org367a03f"><span class="section-number-3">4.1</span> Документы</h3>
+<div class="outline-text-3" id="text-4-1">
+<ul class="org-ul">
+<li>Взять студенческую книжку.</li>
+<li>Библиотека.</li>
+</ul>
+</div>
+</div>
+</div>
+
+<div id="outline-container-org8f08d93" class="outline-2">
+<h2 id="org8f08d93"><span class="section-number-2">5</span> Вопросы</h2>
+<div class="outline-text-2" id="text-5">
+<p>
+За месяц до начала сессии.
+</p>
+</div>
+</div>
+
+<div id="outline-container-org337e52f" class="outline-2">
+<h2 id="org337e52f"><span class="section-number-2">6</span> Фотографии</h2>
+<div class="outline-text-2" id="text-6">
+<p>
+<img src="img/P60914-203338.jpg" alt="P60914-203338.jpg" />
+<img src="img/P60914-203340.jpg" alt="P60914-203340.jpg" />
+<img src="img/P60914-203349.jpg" alt="P60914-203349.jpg" />
+<img src="img/P60914-203350.jpg" alt="P60914-203350.jpg" />
+<img src="img/P60914-204226.jpg" alt="P60914-204226.jpg" />
+<img src="img/P60914-204232.jpg" alt="P60914-204232.jpg" />
+<img src="img/P60914-204233.jpg" alt="P60914-204233.jpg" />
+<img src="img/P60914-205152.jpg" alt="P60914-205152.jpg" />
+<img src="img/P60914-205157.jpg" alt="P60914-205157.jpg" />
+<img src="img/P60914-205702.jpg" alt="P60914-205702.jpg" />
+<img src="img/P60914-205704.jpg" alt="P60914-205704.jpg" />
+<img src="img/P60914-205709.jpg" alt="P60914-205709.jpg" />
+<img src="img/P60914-205712.jpg" alt="P60914-205712.jpg" />
+<img src="img/P60914-205722.jpg" alt="P60914-205722.jpg" />
+<img src="img/P60914-205725.jpg" alt="P60914-205725.jpg" />
+</p>
+</div>
+</div>
+</div>
+<div id="postamble" class="status">
+<p class="date">Date: 2016-09-15</p>
+<p class="author">Author: Oleg Pykhalov</p>
+<p class="date">Created: 2017-02-10 Fri 11:55</p>
+<p class="validation"><a href="http://validator.w3.org/check?uri=referer">Validate</a></p>
+</div>
+</body>
+</html>
